@@ -19,6 +19,7 @@ import CardImg from "./assets/businessdigitalcard.png";
 import AnalyticsImg from "./assets/analyticsandreports.png";
 import XlImg from "./assets/xlextractofreports.png";
 import NotesImg from "./assets/mynotes.png";
+import TalentImg from "./assets/talentgroup.png";
 
 function Infos() {
   return (
@@ -234,7 +235,7 @@ function Infos() {
             </div>
             <div className="text-center">
               <div className="flex justify-center ">
-                <img src={AnnouncementsImg} className="h-12 w-12 mb-4 mt-4" />
+                <img src={TalentImg} className="h-12 w-12 mb-4 mt-4" />
               </div>
               <span className="font-semibold">Talent Group</span>
               <div className="mt-2">
