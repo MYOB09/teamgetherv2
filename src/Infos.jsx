@@ -1,5 +1,24 @@
 import { Brain } from "lucide-react";
 import BrainstormImg from "./assets/brainstorming.png";
+import StoriesImg from "./assets/stories.png";
+import AnnouncementsImg from "./assets/announcements.png";
+import ChatImg from "./assets/chat.png";
+import SurveysImg from "./assets/surveysandpolls.png";
+import MediaImg from "./assets/mediawall.png";
+import GoalsImg from "./assets/valuesandgoals.png";
+import BadgesImg from "./assets/badgesandawards.png";
+import EventsImg from "./assets/events.png";
+import ErecognitionImg from "./assets/employeerecognition.png";
+import VoiceImg from "./assets/yourvoice.png";
+import ChartImg from "./assets/organizationalchart.png";
+import PerformanceImg from "./assets/performancefeedback.png";
+import EvaluationImg from "./assets/360evaluation.png";
+import KnowledgeImg from "./assets/knowledgebase.png";
+import StorageImg from "./assets/documentstorage.png";
+import CardImg from "./assets/businessdigitalcard.png";
+import AnalyticsImg from "./assets/analyticsandreports.png";
+import XlImg from "./assets/xlextractofreports.png";
+import NotesImg from "./assets/mynotes.png";
 
 function Infos() {
   return (
@@ -79,10 +98,7 @@ function Infos() {
             </div>
             <div className="text-center">
               <div className="flex justify-center ">
-                <img
-                  src="./src/assets/stories.png"
-                  className="h-12 w-12 mb-4 mt-4"
-                />
+                <img src={StoriesImg} className="h-12 w-12 mb-4 mt-4" />
               </div>
               <span className="font-semibold">Stories</span>
               <div className="mt-2">
@@ -92,10 +108,7 @@ function Infos() {
             </div>
             <div className="text-center">
               <div className="flex justify-center ">
-                <img
-                  src="./src/assets/announcements.png"
-                  className="h-12 w-12 mb-4 mt-4"
-                />
+                <img src={AnnouncementsImg} className="h-12 w-12 mb-4 mt-4" />
               </div>
               <span className="font-semibold">Announcements</span>
               <div className="mt-2">
@@ -105,10 +118,7 @@ function Infos() {
             </div>
             <div className="text-center">
               <div className="flex justify-center ">
-                <img
-                  src="./src/assets/chat.png"
-                  className="h-12 w-12 mb-4 mt-4"
-                />
+                <img src={ChatImg} className="h-12 w-12 mb-4 mt-4" />
               </div>
               <span className="font-semibold">Chat</span>
               <div className="mt-2">
@@ -118,10 +128,7 @@ function Infos() {
             </div>
             <div className="text-center">
               <div className="flex justify-center ">
-                <img
-                  src="./src/assets/surveysandpolls.png"
-                  className="h-12 w-12 mb-4 mt-4"
-                />
+                <img src={SurveysImg} className="h-12 w-12 mb-4 mt-4" />
               </div>
               <span className="font-semibold">Surveys and Polls</span>
               <div className="mt-2">
@@ -131,10 +138,7 @@ function Infos() {
             </div>
             <div className="text-center">
               <div className="flex justify-center ">
-                <img
-                  src="./src/assets/mediawall.png"
-                  className="h-12 w-12 mb-4 mt-4"
-                />
+                <img src={MediaImg} className="h-12 w-12 mb-4 mt-4" />
               </div>
               <span className="font-semibold">Media Wall</span>
               <div className="mt-2">
@@ -144,10 +148,7 @@ function Infos() {
             </div>
             <div className="text-center">
               <div className="flex justify-center ">
-                <img
-                  src="./src/assets/valuesandgoals.png"
-                  className="h-12 w-12 mb-4 mt-4"
-                />
+                <img src={GoalsImg} className="h-12 w-12 mb-4 mt-4" />
               </div>
               <span className="font-semibold">Values and Goals</span>
               <div className="mt-2">
@@ -157,10 +158,7 @@ function Infos() {
             </div>
             <div className="text-center">
               <div className="flex justify-center ">
-                <img
-                  src="./src/assets/badgesandawards.png"
-                  className="h-12 w-12 mb-4 mt-4"
-                />
+                <img src={BadgesImg} className="h-12 w-12 mb-4 mt-4" />
               </div>
               <span className="font-semibold">Badges and Awards</span>
               <div className="mt-2">
@@ -170,10 +168,7 @@ function Infos() {
             </div>
             <div className="text-center">
               <div className="flex justify-center ">
-                <img
-                  src="./src/assets/events.png"
-                  className="h-12 w-12 mb-4 mt-4"
-                />
+                <img src={EventsImg} className="h-12 w-12 mb-4 mt-4" />
               </div>
               <span className="font-semibold">Events</span>
               <div className="mt-2">
@@ -183,10 +178,7 @@ function Infos() {
             </div>
             <div className="text-center">
               <div className="flex justify-center ">
-                <img
-                  src="./src/assets/employeerecognition.png"
-                  className="h-12 w-12 mb-4 mt-4"
-                />
+                <img src={ErecognitionImg} className="h-12 w-12 mb-4 mt-4" />
               </div>
               <span className="font-semibold">Employee Recognition</span>
               <div className="mt-2">
@@ -196,10 +188,7 @@ function Infos() {
             </div>
             <div className="text-center">
               <div className="flex justify-center ">
-                <img
-                  src="./src/assets/yourvoice.png"
-                  className="h-12 w-12 mb-4 mt-4"
-                />
+                <img src={VoiceImg} className="h-12 w-12 mb-4 mt-4" />
               </div>
               <span className="font-semibold">Your Voice</span>
               <div className="mt-2">
@@ -209,10 +198,7 @@ function Infos() {
             </div>
             <div className="text-center">
               <div className="flex justify-center ">
-                <img
-                  src="./src/assets/organizationalchart.png"
-                  className="h-12 w-12 mb-4 mt-4"
-                />
+                <img src={ChartImg} className="h-12 w-12 mb-4 mt-4" />
               </div>
               <span className="font-semibold">Organizational Chart</span>
               <div className="mt-2">
@@ -228,10 +214,7 @@ function Infos() {
           <div className="grid auto-grid-auto sm:grid-cols-5">
             <div className="text-center">
               <div className="flex justify-center ">
-                <img
-                  src="./src/assets/360evaluation.png"
-                  className="h-12 w-12 mb-4 mt-4"
-                />
+                <img src={EvaluationImg} className="h-12 w-12 mb-4 mt-4" />
               </div>
               <span className="font-semibold">360 Evaluation</span>
               <div className="mt-2">
@@ -241,10 +224,7 @@ function Infos() {
             </div>
             <div className="text-center">
               <div className="flex justify-center ">
-                <img
-                  src="./src/assets/performancefeedback.png"
-                  className="h-12 w-12 mb-4 mt-4"
-                />
+                <img src={PerformanceImg} className="h-12 w-12 mb-4 mt-4" />
               </div>
               <span className="font-semibold">Performance Feedback</span>
               <div className="mt-2">
@@ -254,10 +234,7 @@ function Infos() {
             </div>
             <div className="text-center">
               <div className="flex justify-center ">
-                <img
-                  src="./src/assets/announcements.png"
-                  className="h-12 w-12 mb-4 mt-4"
-                />
+                <img src={AnnouncementsImg} className="h-12 w-12 mb-4 mt-4" />
               </div>
               <span className="font-semibold">Talent Group</span>
               <div className="mt-2">
@@ -267,10 +244,7 @@ function Infos() {
             </div>
             <div className="text-center">
               <div className="flex justify-center ">
-                <img
-                  src="./src/assets/chat.png"
-                  className="h-12 w-12 mb-4 mt-4"
-                />
+                <img src={NotesImg} className="h-12 w-12 mb-4 mt-4" />
               </div>
               <span className="font-semibold">My Notes</span>
               <div className="mt-2">
@@ -280,10 +254,7 @@ function Infos() {
             </div>
             <div className="text-center">
               <div className="flex justify-center ">
-                <img
-                  src="./src/assets/surveysandpolls.png"
-                  className="h-12 w-12 mb-4 mt-4"
-                />
+                <img src={SurveysImg} className="h-12 w-12 mb-4 mt-4" />
               </div>
               <span className="font-semibold">Ambassadors</span>
               <div className="mt-2">
@@ -299,10 +270,7 @@ function Infos() {
           <div className="grid auto-grid-auto sm:grid-cols-3">
             <div className="text-center">
               <div className="flex justify-center ">
-                <img
-                  src="./src/assets/knowledgebase.png"
-                  className="h-12 w-12 mb-4 mt-4"
-                />
+                <img src={KnowledgeImg} className="h-12 w-12 mb-4 mt-4" />
               </div>
               <span className="font-semibold">Knowledge Base</span>
               <div className="mt-2">
@@ -312,10 +280,7 @@ function Infos() {
             </div>
             <div className="text-center">
               <div className="flex justify-center ">
-                <img
-                  src="./src/assets/documentstorage.png"
-                  className="h-12 w-12 mb-4 mt-4"
-                />
+                <img src={StorageImg} className="h-12 w-12 mb-4 mt-4" />
               </div>
               <span className="font-semibold">Document Storage</span>
               <div className="mt-2">
@@ -325,10 +290,7 @@ function Infos() {
             </div>
             <div className="text-center">
               <div className="flex justify-center ">
-                <img
-                  src="./src/assets/businessdigitalcard.png"
-                  className="h-12 w-12 mb-4 mt-4"
-                />
+                <img src={CardImg} className="h-12 w-12 mb-4 mt-4" />
               </div>
               <span className="font-semibold">Business Digital Card</span>
               <div className="mt-2">
@@ -344,10 +306,7 @@ function Infos() {
           <div className="grid auto-grid-auto sm:grid-cols-2">
             <div className="text-center">
               <div className="flex justify-center ">
-                <img
-                  src="./src/assets/analyticsandreports.png"
-                  className="h-12 w-12 mb-4 mt-4"
-                />
+                <img src={AnalyticsImg} className="h-12 w-12 mb-4 mt-4" />
               </div>
               <span className="font-semibold">Analytics and Reports</span>
               <div className="mt-2">
@@ -357,10 +316,7 @@ function Infos() {
             </div>
             <div className="text-center">
               <div className="flex justify-center ">
-                <img
-                  src="./src/assets/xlextractofreports.png"
-                  className="h-12 w-12 mb-4 mt-4"
-                />
+                <img src={XlImg} className="h-12 w-12 mb-4 mt-4" />
               </div>
               <span className="font-semibold">XL Extract of Reports</span>
               <div className="mt-2">
