@@ -63,13 +63,13 @@ function Infos() {
           </div>
         </div>
         <div
-          className=" mt-4 bg-slate-100 text-center w-full rounded-xl p-4"
+          className=" mt-4 bg-sky-200 text-center w-full rounded-xl p-4"
           id="faq"
         >
           <div className="text-2xl font-bold pt-4 pb-4">
             Frequently Asked Questions
           </div>
-          <hr className=" bg-blue-300 border-2 rounded-full border-slate-300" />
+          <hr className=" bg-white border-2 rounded-full border-white" />
           <div className="pt-4">
             <div className="text-xl font-semibold">- What is Teamgether?</div>
 
