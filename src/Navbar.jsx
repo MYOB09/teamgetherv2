@@ -13,10 +13,12 @@ import {
 function Navbar() {
   return (
     <div className="bg-white items-center sticky top-0 flex justify-between w-full h-20">
-      <img
-        className=" h-12 sm:block sm:h-24 sm:w-auto hover:cursor-pointer"
-        src={TeamgetherLogo}
-      ></img>
+      <a href="teamgetherv2/#/home">
+        <img
+          className=" h-12 sm:block sm:h-24 sm:w-auto hover:cursor-pointer"
+          src={TeamgetherLogo}
+        ></img>
+      </a>
 
       <ul className="inline-flex space-x-4 sm:space-x-12 text-xs sm:text-lg ">
         <li className="hidden sm:block font-semibold hover:cursor-pointer hover:text-sky-300">
