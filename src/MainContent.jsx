@@ -16,9 +16,11 @@ function MainContent() {
           increase team productivity
         </p>
         <div className="text-center">
-          <Button className="bg-sky-500 px-12 mb-4 hover:bg-sky-300">
-            Learn More
-          </Button>
+          <a href="/#/features">
+            <Button className="bg-sky-500 px-12 mb-4 hover:bg-sky-300">
+              Learn More
+            </Button>
+          </a>
         </div>
       </div>
       <div className="flex justify-center mt-4 m-12 ">

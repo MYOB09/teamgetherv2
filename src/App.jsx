@@ -1,22 +1,25 @@
-import { useState } from "react";
 import "./App.css";
-import { Button } from "./components/ui/button";
-import Navbar from "./Navbar";
-import MainContent from "./MainContent";
-import Infos from "./Infos";
-import Contactus from "./Contactus";
-import Pricing from "./Pricing";
-import Footer from "./Footer";
+import Homepage from "./Pages/Homepage";
+import FeaturesPage from "./Pages/FeaturesPage";
+import { HashRouter, BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <>
-      <Navbar />
-      <MainContent />
-      <Infos />
-      <Pricing />
-      <Contactus />
-      <Footer />
+      <HashRouter>
+        <Routes>
+          <Route index element={<Homepage />} />
+          <Route path="/home" element={<Homepage />} />
+          <Route path="/features" element={<FeaturesPage />} />
+        </Routes>
+      </HashRouter>
+      {/* <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Homepage />} />
+          <Route path="/features" element={<FeaturesPage />} />
+        </Routes>
+      </BrowserRouter> */}
+      {/* <FeaturesPage /> */}
     </>
   );
 }

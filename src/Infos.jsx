@@ -62,7 +62,6 @@ function Infos() {
             </div>
           </div>
         </div>
-        <Use />
         <div
           className=" mt-4 bg-slate-100 text-center w-full rounded-xl p-4"
           id="faq"
