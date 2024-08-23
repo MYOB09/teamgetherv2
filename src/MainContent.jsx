@@ -16,7 +16,7 @@ function MainContent() {
           increase team productivity
         </p>
         <div className="text-center">
-          <a href="/#/features">
+          <a href="/features">
             <Button className="bg-sky-500 px-12 mb-4 hover:bg-sky-300">
               Learn More
             </Button>
