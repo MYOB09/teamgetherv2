@@ -1,34 +1,33 @@
 function Footer() {
   return (
     <div>
-      <div className="text-center ">
-        <div className="text-xl font-semibold  text-sky-500 m-10 inline-flex  space-x-12">
-          <a href="#">
-            <p className="hover:cursor-pointer hover:text-sky-300">
-              <br /> Online Services Email:
-              <br /> support@teamgether.com
-            </p>
-          </a>
-          <a href="#">
-            <p className="hover:cursor-pointer hover:text-sky-300">
-              <br /> Phone (USA): +1 234 567 890
-              <br /> Phone (UK): +44 123 456 7890
-            </p>
-          </a>
-          <a href="#">
-            <p className="hover:cursor-pointer hover:text-sky-300">
-              <br /> Office Address 123 Main Street,
-              <br /> Leicester, LE1 1AB, United Kingdom
-            </p>
-          </a>
+      <div className="bg-sky-300/90 ">
+        <div className="text-xs sm:text-lg  font-semibold  text-white   ">
+          <div className="">
+            <div className="text-center sm:text-start">
+              <div className="font-bold ">Online Services Email</div>
+              support@teamgether.com
+            </div>
+            <div className="text-center sm:text-start">
+              <div className="font-bold ">Phone (USA) :</div> +1 234 567 890
+            </div>
+            <div className="text-center sm:text-start">
+              <div className="font-bold ">Phone (UK) :</div> +44 123 456 7890
+            </div>
+            <div className="font-bold text-center sm:text-start">
+              Office Address :
+            </div>
+            <div className="text-center sm:text-start">
+              123 Main Street, Leicester, LE1 1AB, United Kingdom
+            </div>
+          </div>
         </div>
       </div>
       <footer className="text-center text-xl border-t p-6">
-        Copyright © 2024 <br />
+        Copyright © 2024{" "}
         <span className="font-bold ">
           Team<span className="text-sky-500">g</span>ether
         </span>
-        <br></br>
       </footer>
     </div>
   );

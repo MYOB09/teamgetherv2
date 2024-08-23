@@ -1,7 +1,7 @@
 function Pricing() {
   return (
     <div>
-      <div className="text-center">
+      <div className="text-center" id="prices">
         <div className="text-4xl font-semibold ">Pricing Plans</div>
         <div className="mt-4">
           Our pricing plans will be available soon. Stay tuned for more details!

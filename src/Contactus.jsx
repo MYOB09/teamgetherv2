@@ -5,7 +5,7 @@ import MainContent from "./MainContent";
 function Contactus() {
   return (
     <div className="bg-[url('./assets/contactus.png')] ">
-      <div className=" mt-24">
+      <div className=" mt-24" id="bookademo">
         <form className="bg-gray-200 w-12/12 rounded-xl text-center ">
           <div className=" ">
             <span className="text-4xl font-semibold">Book a Demo</span>
@@ -57,8 +57,10 @@ function Contactus() {
             Book a Demo
           </Button>
         </form>
-
-        <form className="bg-white/50 w-12/12 rounded-xl text-center ">
+        <form
+          className="bg-white/50 w-12/12 rounded-xl text-center "
+          id="contactus"
+        >
           <div className="pt-12">
             <span className="text-4xl font-semibold  ">Contact us</span>
           </div>
@@ -96,7 +98,7 @@ function Contactus() {
               placeholder="Message"
             />
           </div>
-          <Button className="px-12 bg-sky-300 hover:bg-white hover:text-sky-300">
+          <Button className="px-12 bg-sky-300 hover:bg-white hover:text-sky-300 mb-4">
             Send Message
           </Button>
         </form>

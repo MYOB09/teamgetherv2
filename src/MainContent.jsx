@@ -1,4 +1,4 @@
-import TeamgetherLogo from "./assets/teamgether-logo-2.png";
+import { Button } from "./components/ui/button";
 import { ArrowRight } from "lucide-react";
 
 function MainContent() {
@@ -11,11 +11,15 @@ function MainContent() {
             Team<span className="text-blue-300 font-bold">g</span>ether
           </span>
         </div>
-        <p className="text-center text-base sm:text-2xl font-semibold p-6">
-          is an app providing quick communication capabilities among team
-          members to solve problems, exchange ideas, and share common issues
-          through a secure environment.
+        <p className="text-center text-2xl font-semibold p-6">
+          is an app providing engagement, genification and interaction to
+          increase team productivity
         </p>
+        <div className="text-center">
+          <Button className="bg-sky-500 px-12 mb-4 hover:bg-sky-300">
+            Learn More
+          </Button>
+        </div>
       </div>
       <div className="flex justify-center mt-4 m-12 ">
         <div className="bg-sky-300 rounded-full w-full sm:w-6/12  text-center space-y-6 font-semibold p-12">
@@ -27,7 +31,7 @@ function MainContent() {
             </p>
           </div>
           <div className="flex justify-end">
-            <div className="absolute  hover:cursor-pointer hover:text-sky-300  text-black m-1  rounded-full bg-sky-300 mt-7  ">
+            <div className="absolute  hover:cursor-pointer hover:text-sky-300  text-black m-1  rounded-full  mt-7  ">
               <ArrowRight size={26} />
             </div>
           </div>

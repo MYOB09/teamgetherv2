@@ -31,15 +31,19 @@ function Navbar() {
               <DropdownMenuItem>
                 <span>Services</span>
               </DropdownMenuItem>
-              <DropdownMenuItem>
-                <span>Book a Demo</span>
-              </DropdownMenuItem>
+              <ScrollIntoView selector="#bookademo">
+                <DropdownMenuItem>
+                  <span>Book a Demo</span>
+                </DropdownMenuItem>
+              </ScrollIntoView>
             </DropdownMenuContent>
           </DropdownMenu>
         </li>
+
         <li className="hidden sm:block font-semibold hover:cursor-pointer hover:text-sky-300">
-          Pricing
+          <ScrollIntoView selector="#prices">Pricing</ScrollIntoView>
         </li>
+
         <li className="font-semibold hover:cursor-pointer hover:text-blue-800">
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
@@ -51,12 +55,16 @@ function Navbar() {
               </Button>
             </DropdownMenuTrigger>
             <DropdownMenuContent className="w-56">
-              <DropdownMenuItem>
-                <span>FAQ</span>
-              </DropdownMenuItem>
-              <DropdownMenuItem>
-                <span>Contact us</span>
-              </DropdownMenuItem>
+              <ScrollIntoView selector="#faq">
+                <DropdownMenuItem>
+                  <span>FAQ</span>
+                </DropdownMenuItem>
+              </ScrollIntoView>
+              <ScrollIntoView selector="#contactus">
+                <DropdownMenuItem>
+                  <span>Contact us</span>
+                </DropdownMenuItem>
+              </ScrollIntoView>
             </DropdownMenuContent>
           </DropdownMenu>
         </li>
