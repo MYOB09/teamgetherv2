@@ -4,6 +4,9 @@ import { Button } from "./components/ui/button";
 import Navbar from "./Navbar";
 import MainContent from "./MainContent";
 import Infos from "./Infos";
+import Contactus from "./Contactus";
+import Pricing from "./Pricing";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -11,6 +14,9 @@ function App() {
       <Navbar />
       <MainContent />
       <Infos />
+      <Pricing />
+      <Contactus />
+      <Footer />
     </>
   );
 }
