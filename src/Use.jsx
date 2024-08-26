@@ -23,11 +23,11 @@ import TalentImg from "./assets/talentgroup.png";
 
 function Use() {
   return (
-    <div>
-      <div className="mt-2 text-center w-full">
+    <div className="mb-12 px-12">
+      <div className="mt-2 text-center w-full ">
         <span className="text-2xl font-bold ">Engagement </span>
-        <hr className=" bg-blue-300 border-2 rounded-full border-sky-300" />
-        <div className="grid auto-grid-auto sm:grid-cols-4">
+        <hr className=" bg-blue-300 border-2 rounded-full border-sky-300 " />
+        <div className="grid auto-grid-auto sm:grid-cols-4 pt-4">
           <div className="text-center">
             <div className="flex justify-center ">
               <img src={BrainstormImg} className="h-12 w-12 mb-4 mt-4" />
@@ -151,8 +151,8 @@ function Use() {
       </div>
       <div className="mt-2 text-center w-full">
         <span className="text-2xl font-bold ">For Managers </span>
-        <hr className=" bg-blue-300 border-2 rounded-full border-sky-300" />
-        <div className="grid auto-grid-auto sm:grid-cols-5">
+        <hr className=" bg-blue-300 border-2 rounded-full border-sky-300 " />
+        <div className="grid auto-grid-auto sm:grid-cols-5 pt-4">
           <div className="text-center">
             <div className="flex justify-center ">
               <img src={EvaluationImg} className="h-12 w-12 mb-4 mt-4" />
@@ -207,8 +207,8 @@ function Use() {
       </div>
       <div className="mt-2 text-center w-full">
         <span className="text-2xl font-bold ">Digital Space </span>
-        <hr className=" bg-blue-300 border-2 rounded-full border-sky-300" />
-        <div className="grid auto-grid-auto sm:grid-cols-3">
+        <hr className=" bg-blue-300 border-2 rounded-full border-sky-300 " />
+        <div className="grid auto-grid-auto sm:grid-cols-3 pt-4">
           <div className="text-center">
             <div className="flex justify-center ">
               <img src={KnowledgeImg} className="h-12 w-12 mb-4 mt-4" />
@@ -241,10 +241,10 @@ function Use() {
           </div>
         </div>
       </div>
-      <div className="mt-2 text-center w-full">
+      <div className="p-4 mt-2 text-center w-full">
         <span className="text-2xl font-bold ">Reporting </span>
-        <hr className=" bg-blue-300 border-2 rounded-full border-sky-300" />
-        <div className="grid auto-grid-auto sm:grid-cols-2">
+        <hr className=" bg-blue-300 border-2 rounded-full border-sky-300  " />
+        <div className="grid auto-grid-auto sm:grid-cols-2 pt-4">
           <div className="text-center">
             <div className="flex justify-center ">
               <img src={AnalyticsImg} className="h-12 w-12 mb-4 mt-4" />

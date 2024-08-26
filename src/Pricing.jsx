@@ -1,8 +1,14 @@
+import Prices from "./assets/price-list.svg";
+
 function Pricing() {
   return (
     <div>
       <div className="text-center" id="prices">
-        <div className="text-4xl font-semibold ">Pricing Plans</div>
+        <div className="flex justify-center">
+          <img src={Prices} className="h-12 w-12" />
+          <div className="text-4xl font-semibold ">Pricing Plans</div>
+        </div>
+
         <div className="mt-4">
           Our pricing plans will be available soon. Stay tuned for more details!
         </div>

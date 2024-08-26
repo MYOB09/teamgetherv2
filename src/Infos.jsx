@@ -1,11 +1,19 @@
 import Use from "./Use";
+import { MessageCircleWarning } from "lucide-react";
+
+import FAQ from "./assets/faq.svg";
+import WhyUs from "./assets/problem.svg";
 
 function Infos() {
   return (
     <div>
       <div className="flex flex-col m-12">
         <div className="mt-2 bg-slate-100 text-center w-full rounded-xl p-4">
-          <div className="text-2xl font-bold pt-4 pb-4">Why us? </div>
+          <div className="flex justify-center">
+            <img src={WhyUs} className="w-12 h-12 " />
+            <div className="text-2xl font-bold pt-4 pb-4">Why us? </div>
+          </div>
+
           <hr className=" bg-blue-300 border-2 rounded-full border-slate-300" />
           <div className="pt-4">
             <div className="text-xl font-semibold">
@@ -63,11 +71,16 @@ function Infos() {
           </div>
         </div>
         <div
-          className=" mt-4 bg-sky-200 text-center w-full rounded-xl p-4"
+          className=" mt-4 bg-sky-300 text-center w-full rounded-xl p-4"
           id="faq"
         >
-          <div className="text-2xl font-bold pt-4 pb-4">
-            Frequently Asked Questions
+          <div className="flex justify-center">
+            <img src={FAQ} className="w-12 h-12" />
+
+            <div className="text-2xl font-bold pt-4 pb-4 hidden sm:inline">
+              Frequently Asked Questions{" "}
+            </div>
+            <div className="text-2xl font-bold pt-4 pb-4  sm:hidden">FAQ</div>
           </div>
           <hr className=" bg-white border-2 rounded-full border-white" />
           <div className="pt-4">

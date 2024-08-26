@@ -5,7 +5,7 @@ import MainContent from "./MainContent";
 function Contactus() {
   return (
     <div className="bg-[url('./assets/contactus.png')] ">
-      <div className=" mt-24" id="bookademo">
+      <div className=" mt-24" id="bookademo ">
         <form className="bg-gray-200 w-12/12 rounded-xl text-center ">
           <div className=" ">
             <span className="text-4xl font-semibold">Book a Demo</span>
@@ -57,6 +57,8 @@ function Contactus() {
             Book a Demo
           </Button>
         </form>
+      </div>
+      <div className="">
         <form
           className="bg-white/50 w-12/12 rounded-xl text-center "
           id="contactus"

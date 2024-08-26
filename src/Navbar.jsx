@@ -73,11 +73,11 @@ function Navbar() {
         <li className="pt-2 pr-4 w-12 h-12  ">
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
-              <img className="hover:cursor-pointer" src={Greek} />
+              <img className="hover:cursor-pointer" src={English} />
             </DropdownMenuTrigger>
             <DropdownMenuContent className="">
               <DropdownMenuItem className="p-0 ">
-                <img className="w-full h-12" src={English} />
+                <img className="w-full h-12" src={Greek} />
               </DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>
