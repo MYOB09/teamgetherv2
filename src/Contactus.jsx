@@ -1,6 +1,7 @@
 import ContactImg from "./assets/contactus.png";
 import { Button } from "./components/ui/button";
 import Phone from "./assets/call.svg";
+import Pin from "./assets/location.svg";
 import Mail from "./assets/mail.svg";
 
 function Contactus() {
@@ -64,23 +65,41 @@ function Contactus() {
       </div>
       <div className="flex flex-cols-2 ">
         <div className="pt-12 w-4/12 mx-4">
-          <div className="text-xs sm:text-lg  font-semibold  text-black s">
+          <div className="text-xs sm:text-lg  font-bold  text-black s">
             <div className="">
               <div className="text-center pt-8 flex flex-inline justify-center">
                 <img className="w-8 h-8" src={Mail} />
                 <div className="font-bold ">Online Services Email:</div>
+              </div>
+              <div className="text-center font-semibold">
                 support@teamgether.com
               </div>
+
               <div className="text-center pt-8 flex flex-inline justify-center">
                 <img className="w-8 h-8" src={Phone} />
-                <div className="font-bold ">Phone (USA) :</div> +1 234 567 890
+                <div className="font-bold ">
+                  Phone <br />
+                  (USA) :
+                </div>
               </div>
+              <div className="text-center font-semibold">+1 234 567 890</div>
+
               <div className="text-center pt-8 flex flex-inline justify-center">
                 <img className="w-8 h-8" src={Phone} />
-                <div className="font-bold ">Phone (UK) :</div>+44 123 456 7890
+                <div className="font-bold ">
+                  Phone
+                  <br /> (UK) :
+                </div>
               </div>
-              <div className="font-bold text-center pt-8">Office Address :</div>
-              <div className="text-center pb-44">
+              <div className="text-center font-semibold">+44 123 456 7890</div>
+              <div className="text-center pt-8 flex flex-inline justify-center">
+                <img className="w-8 h-8" src={Pin} />
+                <div className="font-bold ">
+                  Office <br />
+                  Address :
+                </div>
+              </div>
+              <div className="text-center font-semibold ">
                 123 Main Street, Leicester, LE1 1AB, United Kingdom
               </div>
             </div>

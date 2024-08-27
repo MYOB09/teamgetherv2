@@ -1,12 +1,42 @@
 import { Button } from "./components/ui/button";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Phone } from "lucide-react";
+import PhoneIcon from "./assets/heroimage.png";
 
 import Teaser from "./Teaser";
 
 function MainContent() {
   return (
     <div>
-      <div className=" m-12 rounded-xl">
+      <div className="flex sm:mt-24 sm:mb-24 pt-24">
+        <div className="w-full sm:w-7/12 mx-4">
+          <div className="text-2xl sm:text-6xl font-bold ">
+            Running teams efficiently and effectively, both localy and globally
+            has never been easier.
+          </div>
+          <div className="text-normal sm:text-3xl pt-12 font-semibold">
+            Create a secure and simple environment providing quick communication
+            capabilities among team members to solve problems, exchange ideas
+            and share common issues
+          </div>
+          <div className="flex justify-center pt-12 -pl-2">
+            <div className="">
+              <Button className="border-sky-300 bg-sky-300 hover:bg-white hover:text-sky-300 border-2 hover:border-sky-300 sm:text-2xl sm:p-6">
+                Book a Demo
+              </Button>
+            </div>
+
+            <div className="mx-12 ">
+              <Button className="border-2 border-white bg-white text-sky-300 border-2 border-sky-300 hover:bg-sky-300 hover:text-white sm:text-2xl sm:p-6">
+                How it works
+              </Button>
+            </div>
+          </div>
+        </div>
+        <div className="hidden sm:block w-3/12 mx-12">
+          <img src={PhoneIcon} className="" />
+        </div>
+      </div>
+      {/* <div className=" m-12 rounded-xl">
         <div className="flex justify-center">
           <span className="font-bold text-4xl text-blue-950">
             Team<span className="text-blue-300 font-bold">g</span>ether
@@ -16,7 +46,7 @@ function MainContent() {
           An app providing engagement, gamification and interaction to increase
           team productivity
         </p>
-      </div>
+      </div> */}
       <Teaser />
       <div className="flex justify-center mt-4 m-12 ">
         <div className="bg-sky-300 rounded-full w-full sm:w-6/12  text-center space-y-6 font-semibold p-12">

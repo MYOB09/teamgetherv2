@@ -12,7 +12,7 @@ import {
 
 function Navbar() {
   return (
-    <div className="bg-white items-center sticky top-0 flex justify-between w-full h-20">
+    <div className="bg-white items-center sticky top-0 flex justify-between w-full h-24">
       <div>
         <a href="/teamgetherv2/#/home">
           <img
