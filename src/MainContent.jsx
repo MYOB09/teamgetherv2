@@ -10,8 +10,11 @@ function MainContent() {
       <div className="flex sm:mt-24 sm:mb-24 pt-18">
         <div className="w-full sm:w-7/12 mx-4">
           <div className="text-2xl sm:text-6xl font-bold ">
-            Running teams efficiently and effectively, both localy and globally
-            has never been easier.
+            Running teams <span className="text-sky-300">efficiently</span> and{" "}
+            <span className="text-sky-300 ">effectively</span>, both{" "}
+            <span className="text-sky-300">localy</span> and{" "}
+            <span className="text-sky-300">globally</span> has never been{" "}
+            <span className="text-sky-300">easier</span>.
           </div>
           <div className="text-normal sm:text-3xl pt-12 font-semibold">
             Create a secure and simple environment providing quick communication
