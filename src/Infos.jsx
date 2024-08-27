@@ -30,7 +30,7 @@ function Infos() {
         <div className="mt-2 bg-slate-100 text-center w-full rounded-xl p-4">
           <div className="flex justify-center">
             <img src={WhyUs} className="w-16 h-16 " />
-            <div className="text-4xl font-bold pt-4 pb-4">Why us? </div>
+            <div className="text-4xl font-bold pt-4 pb-4">&nbsp;Why us? </div>
           </div>
           <hr className=" bg-blue-300 border-2 rounded-full border-slate-300" />
           <div className="grid sm:grid-cols-3 ">
@@ -148,9 +148,11 @@ function Infos() {
           <div className="flex justify-center">
             <img src={FAQ} className="w-16 h-16" />
             <div className="text-4xl font-bold pt-4 pb-4 hidden sm:inline">
-              Frequently Asked Questions{" "}
+              &nbsp;Frequently Asked Questions
             </div>
-            <div className="text-4xl font-bold pt-4 pb-4  sm:hidden">FAQ</div>
+            <div className="text-4xl font-bold pt-4 pb-4  sm:hidden">
+              &nbsp;FAQ
+            </div>
           </div>
           <hr className=" bg-white border-2 rounded-full border-white" />
           <Accordion type="single" collapsible className="">

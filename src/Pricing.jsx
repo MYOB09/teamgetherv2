@@ -6,7 +6,7 @@ function Pricing() {
       <div className="text-center" id="prices">
         <div className="flex justify-center">
           <img src={Prices} className="h-12 w-12" />
-          <div className="text-4xl font-semibold ">Pricing Plans</div>
+          <div className="text-4xl font-semibold ">&nbsp;Pricing Plans</div>
         </div>
 
         <div className="mt-4">

@@ -7,8 +7,8 @@ import Teaser from "./Teaser";
 function MainContent() {
   return (
     <div>
-      <div className="flex sm:mt-24 sm:mb-24 pt-18">
-        <div className="w-full sm:w-7/12 mx-4">
+      <div className="flex mb-8 mt-8 sm:mt-24 sm:mb-24 pt-18">
+        <div className="w-full sm:w-7/12 mx-4 ">
           <div className="text-2xl sm:text-6xl font-bold ">
             Running teams <span className="text-sky-300">efficiently</span> and{" "}
             <span className="text-sky-300 ">effectively</span>, both{" "}
@@ -51,7 +51,7 @@ function MainContent() {
         </p>
       </div> */}
       <Teaser />
-      <div className="flex justify-center mt-4 m-12 ">
+      <div className="flex justify-center mt-12 mx-12 ">
         <div className="bg-sky-300 rounded-full w-full sm:w-6/12  text-center space-y-6 font-semibold p-12">
           <div className="text-xl">
             <p className="text-white">

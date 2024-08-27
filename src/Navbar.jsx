@@ -47,7 +47,7 @@ function Navbar() {
           <ScrollIntoView selector="#prices">Pricing</ScrollIntoView>
         </li>
         <li className="hidden sm:block font-semibold hover:cursor-pointer hover:text-sky-300 pt-4">
-          Features
+          <a href="/teamgetherv2/#/features">Features</a>
         </li>
         <li className="font-semibold hover:cursor-pointer hover:text-blue-800 pt-2">
           <DropdownMenu>

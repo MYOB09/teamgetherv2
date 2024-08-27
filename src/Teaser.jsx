@@ -7,7 +7,7 @@ import { Button } from "./components/ui/button";
 function Teaser() {
   return (
     <div className=" rounded-xl bg-sky-100 ">
-      <div className="py-4 grid sm:grid-cols-2 m-4 rounded-full">
+      <div className="py-4 grid sm:grid-cols-2 mx-4 rounded-full pb-12">
         <div className="bg-white mx-12 rounded-xl mt-8 p-12 text-center hover:cursor-pointer hover:bg-gray-100 hover:cursor-pointer hover:bg-gray-100">
           <div className="flex justify-center ">
             <img src={Engage} className="w-12 h-12 " />
@@ -54,11 +54,11 @@ function Teaser() {
         </div>
       </div>
       <div className="text-center">
-        <a href="/teamgetherv2/#/features">
+        {/* <a href="/teamgetherv2/#/features">
           <Button className="bg-sky-500 px-12 mb-4 hover:bg-sky-300 text-2xl  ">
             Learn More
           </Button>
-        </a>
+        </a> */}
       </div>
     </div>
   );
