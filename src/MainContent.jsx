@@ -7,7 +7,7 @@ import Teaser from "./Teaser";
 function MainContent() {
   return (
     <div>
-      <div className="flex sm:mt-24 sm:mb-18 pt-18">
+      <div className="flex sm:mt-24 sm:mb-24 pt-18">
         <div className="w-full sm:w-7/12 mx-4">
           <div className="text-2xl sm:text-6xl font-bold ">
             Running teams efficiently and effectively, both localy and globally
