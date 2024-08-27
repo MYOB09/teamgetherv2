@@ -6,9 +6,9 @@ import Teaser from "./Teaser";
 function MainContent() {
   return (
     <div>
-      <div className="bg-gray-100 m-12 rounded-xl">
+      <div className=" m-12 rounded-xl">
         <div className="flex justify-center">
-          <span className="font-semibold text-4xl text-blue-950">
+          <span className="font-bold text-4xl text-blue-950">
             Team<span className="text-blue-300 font-bold">g</span>ether
           </span>
         </div>

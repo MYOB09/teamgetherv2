@@ -1,7 +1,7 @@
 function Footer() {
   return (
     <div>
-      <div className="bg-sky-300/90 ">
+      {/* <div className="bg-sky-300/90 ">
         <div className="text-xs sm:text-lg  font-semibold  text-white   ">
           <div className="">
             <div className="text-center sm:text-start">
@@ -22,7 +22,7 @@ function Footer() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       <footer className="text-center text-xl border-t p-6">
         Copyright © 2024{" "}
         <span className="font-bold ">

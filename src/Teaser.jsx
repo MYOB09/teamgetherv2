@@ -8,7 +8,7 @@ function Teaser() {
   return (
     <div className=" rounded-xl bg-sky-100 ">
       <div className="py-4 grid sm:grid-cols-2 m-4 rounded-full">
-        <div className="bg-white mx-12 rounded-xl mt-8 p-12 text-center">
+        <div className="bg-white mx-12 rounded-xl mt-8 p-12 text-center hover:cursor-pointer hover:bg-gray-100 hover:cursor-pointer hover:bg-gray-100">
           <div className="flex justify-center ">
             <img src={Engage} className="w-12 h-12 " />
           </div>
@@ -19,7 +19,7 @@ function Teaser() {
             problem-solving.
           </p>
         </div>
-        <div className="bg-white mx-12 rounded-xl mt-8 p-12 text-center">
+        <div className="bg-white mx-12 rounded-xl mt-8 p-12 text-center hover:cursor-pointer hover:bg-gray-100">
           <div className="flex justify-center">
             <img src={Manage} className="w-12 h-12 " />
           </div>
@@ -30,7 +30,7 @@ function Teaser() {
             development.
           </p>
         </div>
-        <div className="bg-white mx-12 rounded-xl mt-8 p-12 text-center">
+        <div className="bg-white mx-12 rounded-xl mt-8 p-12 text-center hover:cursor-pointer hover:bg-gray-100">
           <div className="flex justify-center">
             <img src={DSpace} className="w-12 h-12 " />
           </div>
@@ -41,7 +41,7 @@ function Teaser() {
             compliance.
           </p>
         </div>
-        <div className="bg-white mx-12 rounded-xl mt-8 p-12 text-center">
+        <div className="bg-white mx-12 rounded-xl mt-8 p-12 text-center hover:cursor-pointer hover:bg-gray-100">
           <div className="flex justify-center">
             <img src={Reports} className="w-12 h-12 " />
           </div>

@@ -1,6 +1,6 @@
 import ScrollIntoView from "react-scroll-into-view";
 import TeamgetherLogo from "./assets/teamgether-logo-2.png";
-import Greek from "./assets/greekflag.png";
+import Greek from "./assets/greece.svg";
 import English from "./assets/englishflag.png";
 import { Button } from "./components/ui/button";
 import {
@@ -13,15 +13,17 @@ import {
 function Navbar() {
   return (
     <div className="bg-white items-center sticky top-0 flex justify-between w-full h-20">
-      <a href="/teamgetherv2/#/home">
-        <img
-          className=" h-12 sm:block sm:h-24 sm:w-auto hover:cursor-pointer"
-          src={TeamgetherLogo}
-        ></img>
-      </a>
+      <div>
+        <a href="/teamgetherv2/#/home">
+          <img
+            className=" h-12 sm:block sm:h-24 sm:w-auto hover:cursor-pointer"
+            src={TeamgetherLogo}
+          ></img>
+        </a>
+      </div>
 
       <ul className="inline-flex space-x-4 sm:space-x-12 text-xs sm:text-lg ">
-        <li className="hidden sm:block font-semibold hover:cursor-pointer hover:text-sky-300">
+        <li className="hidden sm:block font-semibold hover:cursor-pointer hover:text-sky-300 pt-4">
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
               <span>Product</span>
@@ -41,12 +43,13 @@ function Navbar() {
             </DropdownMenuContent>
           </DropdownMenu>
         </li>
-
-        <li className="hidden sm:block font-semibold hover:cursor-pointer hover:text-sky-300">
+        <li className="hidden sm:block font-semibold hover:cursor-pointer hover:text-sky-300 pt-4">
           <ScrollIntoView selector="#prices">Pricing</ScrollIntoView>
         </li>
-
-        <li className="font-semibold hover:cursor-pointer hover:text-blue-800">
+        <li className="hidden sm:block font-semibold hover:cursor-pointer hover:text-sky-300 pt-4">
+          Features
+        </li>
+        <li className="font-semibold hover:cursor-pointer hover:text-blue-800 pt-2">
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
               <Button
@@ -71,13 +74,14 @@ function Navbar() {
           </DropdownMenu>
         </li>
         <li className="pt-2 pr-4 w-12 h-12  ">
-          <DropdownMenu>
+          <DropdownMenu className="w-12 h-12">
             <DropdownMenuTrigger asChild>
-              <img className="hover:cursor-pointer" src={English} />
+              <img className="hover:cursor-pointer pt-2" src={English} />
             </DropdownMenuTrigger>
             <DropdownMenuContent className="">
-              <DropdownMenuItem className="p-0 ">
-                <img className="w-full h-12" src={Greek} />
+              <DropdownMenuItem className=" p-0 m-0">
+                <img className="h-8" src={Greek} />{" "}
+                <span className="p-4">Greek</span>
               </DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>
