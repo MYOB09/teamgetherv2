@@ -1,3 +1,7 @@
+import Twitter from "./assets/twitter.svg";
+import Facebook from "./assets/facebook.svg";
+import LinkedIn from "./assets/linkedin.svg";
+
 function Footer() {
   return (
     <div>
@@ -27,7 +31,18 @@ function Footer() {
         Copyright © 2024{" "}
         <span className="font-bold ">
           Team<span className="text-sky-500">g</span>ether
-        </span>
+        </span>{" "}
+        <div className="flex justify-center pt-2">
+          <div className="w-8 h-8 mx-2">
+            <img src={Twitter} />
+          </div>
+          <div className="w-8 h-8 mx-2">
+            <img src={Facebook} />
+          </div>
+          <div className="w-8 h-8 mx-2">
+            <img src={LinkedIn} />
+          </div>
+        </div>
       </footer>
     </div>
   );
