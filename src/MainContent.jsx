@@ -1,6 +1,7 @@
 import { Button } from "./components/ui/button";
 import { ArrowRight, Phone } from "lucide-react";
 import PhoneIcon from "./assets/heroimage.png";
+import PlayButton from "./assets/play.svg";
 
 import Teaser from "./Teaser";
 
@@ -31,6 +32,9 @@ function MainContent() {
             <div className="mx-12 ">
               <Button className="border-2 border-white bg-white text-sky-300 border-2 border-sky-300 hover:bg-sky-300 hover:text-white sm:text-2xl sm:p-6">
                 How it works
+                <div className="h-8 w-8 sm:h-12 sm:w-12 ml-4">
+                  <img src={PlayButton} />
+                </div>
               </Button>
             </div>
           </div>

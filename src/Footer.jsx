@@ -43,6 +43,14 @@ function Footer() {
             <img src={LinkedIn} />
           </div>
         </div>
+        <div className="text-sm mt-2">
+          <span className="font-semibold">Online Services Email:</span>{" "}
+          support@teamgether.com{" "}
+          <span className="font-semibold">Phone (USA) :</span> +1 234 567 890{" "}
+          <span className="font-semibold">Phone (UK) :</span> +44 123 456 7890{" "}
+          <span className="font-semibold">Office Address :</span> 123 Main
+          Street, Leicester, LE1 1AB, United Kingdom
+        </div>
       </footer>
     </div>
   );

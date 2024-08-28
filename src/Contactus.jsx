@@ -60,18 +60,19 @@ function Contactus() {
           </Button>
         </form>
       </div>
-      <div className="text-center pt-4">
-        <span className="text-4xl font-semibold">Contact us</span>
-      </div>
-      <div className="flex flex-cols-2 ">
-        <div className="pt-12 w-4/12 mx-4">
-          <div className="text-xs sm:text-lg  font-bold  text-black s">
+
+      <div className=" ">
+        <div className="text-center pt-4">
+          <span className="text-4xl font-semibold">Contact us</span>
+        </div>
+        {/* <div className="pt-12  mx-4 mt-12">
+          <div className="text-xs   font-bold  text-black s">
             <div className="">
               <div className="text-center pt-8 flex flex-inline justify-center">
                 <img className="w-8 h-8" src={Mail} />
                 <div className="font-bold ">Online Services Email:</div>
               </div>
-              <div className="text-center font-semibold">
+              <div className="text-center  font-semibold">
                 support@teamgether.com
               </div>
 
@@ -104,42 +105,39 @@ function Contactus() {
               </div>
             </div>
           </div>
-        </div>
-        <form
-          className="bg-white pt-12 w-8/12 rounded-xl text-center "
-          id="contactus"
-        >
+        </div> */}
+        <form className="bg-white rounded-xl text-center " id="contactus">
           <div className="mt-4 ">
             <span className="text-xl  ">Let's get in touch</span>
           </div>
           <div className="mt-12">
             <input
-              className="w-5/12 border-2 rounded-xl p-2"
+              className="w-8/12 sm:w-6/12 border-2 rounded-xl p-2"
               placeholder="First Name"
             ></input>
           </div>
           <div className="mt-4">
             <input
-              className="w-5/12 border-2 rounded-xl p-2"
+              className="w-8/12 sm:w-6/12 border-2 rounded-xl p-2"
               placeholder="Last Name"
             ></input>
           </div>
           <div className="mt-4">
             <input
               type="email"
-              className="w-5/12 border-2 rounded-xl p-2"
+              className="w-8/12 sm:w-6/12 border-2 rounded-xl p-2"
               placeholder="Email Address"
             ></input>
           </div>
           <div className="mt-4">
             <input
-              className="w-5/12 border-2 rounded-xl p-2"
+              className="w-8/12 sm:w-6/12 border-2 rounded-xl p-2"
               placeholder="Subject "
             ></input>
           </div>
           <div className="mt-4">
             <textarea
-              className="w-5/12 border-2 rounded-xl p-2 resize-none h-36"
+              className="w-8/12 sm:w-6/12 border-2 rounded-xl p-2 resize-none h-36"
               placeholder="Message"
             />
           </div>

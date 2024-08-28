@@ -36,7 +36,7 @@ function Infos() {
           <div className="grid sm:grid-cols-3 ">
             <Popover>
               <PopoverTrigger>
-                <div className="bg-white rounded-xl pt-12 m-4 px-8 hover:bg-gray-100 hover:border-2 hover:border-white">
+                <div className="bg-white rounded-xl pt-12 m-4 px-8 border-2 hover:bg-gray-100 hover:border-2 hover:border-white">
                   <div className="flex justify-center">
                     <img className="w-32 h-32 mb-4" src={Focus} />
                   </div>
@@ -54,7 +54,7 @@ function Infos() {
             </Popover>
             <Popover>
               <PopoverTrigger>
-                <div className="bg-white rounded-xl pt-12 m-4 px-8 hover:bg-gray-100 hover:border-2 hover:border-white">
+                <div className="bg-white rounded-xl pt-12 m-4 px-8 border-2 hover:bg-gray-100 hover:border-2 hover:border-white">
                   <div className="flex justify-center">
                     <img className="w-32 h-32 mb-4" src={Features} />
                   </div>
@@ -72,7 +72,7 @@ function Infos() {
             </Popover>
             <Popover>
               <PopoverTrigger>
-                <div className="bg-white rounded-xl pt-12 m-4 px-8 hover:bg-gray-100 hover:border-2 hover:border-white">
+                <div className="bg-white rounded-xl pt-12 m-4 px-8 border-2 hover:bg-gray-100 hover:border-2 hover:border-white">
                   <div className="flex justify-center">
                     <img className="w-32 h-32 mb-4" src={TailorMade} />
                   </div>
@@ -90,7 +90,7 @@ function Infos() {
             </Popover>
             <Popover>
               <PopoverTrigger>
-                <div className="bg-white rounded-xl pt-12 m-4 px-8 hover:bg-gray-100 hover:border-2 hover:border-white">
+                <div className="bg-white rounded-xl pt-12 m-4 px-8 border-2 hover:bg-gray-100 hover:border-2 hover:border-white">
                   <div className="flex justify-center">
                     <img className="w-32 h-32 mb-4" src={Experience} />
                   </div>
