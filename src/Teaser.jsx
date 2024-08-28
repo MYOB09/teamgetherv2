@@ -35,7 +35,7 @@ function Teaser() {
           </div>
         </a>
         <a href="/teamgetherv2/#/digitalspace">
-          <div className="bg-white mx-12 rounded-xl mt-8 p-12 text-center hover:cursor-pointer hover:bg-gray-100">
+          <div className="bg-white mx-12 rounded-xl mt-8 p-12 text-center hover:cursor-pointer hover:bg-gray-100 pb-4">
             <div className="flex justify-center">
               <img src={DSpace} className="w-12 h-12 " />
             </div>
