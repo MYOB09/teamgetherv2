@@ -43,19 +43,7 @@ function MainContent() {
           <img src={PhoneIcon} className="" />
         </div>
       </div>
-      {/* <div className=" m-12 rounded-xl">
-        <div className="flex justify-center">
-          <span className="font-bold text-4xl text-blue-950">
-            Team<span className="text-blue-300 font-bold">g</span>ether
-          </span>
-        </div>
-        <p className="text-center text-2xl font-semibold p-6">
-          An app providing engagement, gamification and interaction to increase
-          team productivity
-        </p>
-      </div> */}
-      <Teaser />
-      <div className="flex justify-center mt-12 mx-12 ">
+      <div className="flex justify-center mt-12 mx-12 mb-12">
         <div className="bg-sky-300 rounded-full w-full sm:w-6/12  text-center space-y-6 font-semibold p-12">
           <div className="text-xl">
             <p className="text-white">
@@ -78,6 +66,7 @@ function MainContent() {
           </div>
         </div>
       </div>
+      <Teaser />
     </div>
   );
 }

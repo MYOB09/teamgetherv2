@@ -23,8 +23,8 @@ function EngagementPage() {
         <div className="mt-2 text-center w-full ">
           <div className="text-4xl mb-4 font-bold ">Engagement </div>
           <hr className=" bg-blue-300 border-2 rounded-full border-sky-300 " />
-          <div className="grid auto-grid-auto sm:grid-cols-4 pt-4 text-xl">
-            <div className="text-center m-4">
+          <div className="grid auto-grid-auto sm:grid-cols-4 pt-4 text-xl px-12">
+            <div className="text-center m-4 bg-gray-100 rounded-xl p-2 ">
               <div className="flex justify-center">
                 <img src={BrainstormImg} className="h-12 w-12 mb-4 mt-4" />
               </div>
@@ -34,7 +34,7 @@ function EngagementPage() {
                 problem-solving.
               </div>
             </div>
-            <div className="text-center m-4">
+            <div className="text-center m-4 bg-gray-100 rounded-xl p-2">
               <div className="flex justify-center ">
                 <img src={StoriesImg} className="h-12 w-12 mb-4 mt-4" />
               </div>
@@ -44,7 +44,7 @@ function EngagementPage() {
                 organization.
               </div>
             </div>
-            <div className="text-center m-4">
+            <div className="text-center m-4 bg-gray-100 rounded-xl p-2">
               <div className="flex justify-center ">
                 <img src={AnnouncementsImg} className="h-12 w-12 mb-4 mt-4" />
               </div>
@@ -54,7 +54,7 @@ function EngagementPage() {
                 communication and alignment.
               </div>
             </div>
-            <div className="text-center m-4">
+            <div className="text-center m-4 bg-gray-100 rounded-xl p-2">
               <div className="flex justify-center ">
                 <img src={ChatImg} className="h-12 w-12 mb-4 mt-4" />
               </div>
@@ -64,7 +64,7 @@ function EngagementPage() {
                 fostering belonging.
               </div>
             </div>
-            <div className="text-center m-4">
+            <div className="text-center m-4 bg-gray-100 rounded-xl p-2">
               <div className="flex justify-center ">
                 <img src={SurveysImg} className="h-12 w-12 mb-4 mt-4" />
               </div>
@@ -74,7 +74,7 @@ function EngagementPage() {
                 sentiment analysis.
               </div>
             </div>
-            <div className="text-center m-4">
+            <div className="text-center m-4 bg-gray-100 rounded-xl p-2">
               <div className="flex justify-center ">
                 <img src={MediaImg} className="h-12 w-12 mb-4 mt-4" />
               </div>
@@ -84,7 +84,7 @@ function EngagementPage() {
                 achievements.
               </div>
             </div>
-            <div className="text-center m-4">
+            <div className="text-center m-4 bg-gray-100 rounded-xl p-2">
               <div className="flex justify-center ">
                 <img src={GoalsImg} className="h-12 w-12 mb-4 mt-4" />
               </div>
@@ -94,7 +94,7 @@ function EngagementPage() {
                 alignment.
               </div>
             </div>
-            <div className="text-center m-4">
+            <div className="text-center m-4 bg-gray-100 rounded-xl p-2">
               <div className="flex justify-center ">
                 <img src={BadgesImg} className="h-12 w-12 mb-4 mt-4" />
               </div>
@@ -104,7 +104,7 @@ function EngagementPage() {
                 appreciation and motivation.
               </div>
             </div>
-            <div className="text-center m-4">
+            <div className="text-center m-4 bg-gray-100 rounded-xl p-2">
               <div className="flex justify-center ">
                 <img src={EventsImg} className="h-12 w-12 mb-4 mt-4" />
               </div>
@@ -114,7 +114,7 @@ function EngagementPage() {
                 engaged.
               </div>
             </div>
-            <div className="text-center m-4">
+            <div className="text-center m-4 bg-gray-100 rounded-xl p-2">
               <div className="flex justify-center ">
                 <img src={ErecognitionImg} className="h-12 w-12 mb-4 mt-4" />
               </div>
@@ -126,7 +126,7 @@ function EngagementPage() {
                 morale.
               </div>
             </div>
-            <div className="text-center m-4">
+            <div className="text-center m-4 bg-gray-100 rounded-xl p-2">
               <div className="flex justify-center ">
                 <img src={VoiceImg} className="h-12 w-12 mb-4 mt-4" />
               </div>
@@ -136,7 +136,7 @@ function EngagementPage() {
                 and action.
               </div>
             </div>
-            <div className="text-center m-4">
+            <div className="text-center m-4 bg-gray-100 rounded-xl p-2">
               <div className="flex justify-center ">
                 <img src={ChartImg} className="h-12 w-12 mb-4 mt-4" />
               </div>

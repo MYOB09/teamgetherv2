@@ -54,7 +54,7 @@ function Teaser() {
             </div>
             <div className="text-2xl font-bold pt-4 pb-4">Reporting</div>
             <hr className="  border-2 rounded-full border-black" />
-            <p className="pt-4 font-semibold mb-12">
+            <p className="pt-4 font-semibold ">
               Generates insights and reports, aiding in data-driven
               decision-making.
             </p>

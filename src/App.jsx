@@ -2,12 +2,24 @@ import "./App.css";
 import Homepage from "./Pages/Homepage";
 import FeaturesPage from "./Pages/FeaturesPage";
 import { HashRouter, BrowserRouter, Routes, Route } from "react-router-dom";
+
 import EngagementPage from "./Pages/EngagementPage";
 import ManagersPage from "./Pages/ManagersPage";
 import DSpacePage from "./Pages/DspacePage";
 import ReportingPage from "./Pages/ReportingPage";
 
+import { ScrollRestoration } from "react-router-dom";
+import { useRef } from "react";
+
 function App() {
+  const aboutSection = useRef(null);
+
+  const scrollTo = () => {
+    window.scrollTo({
+      top: aboutSection.current.offsetTop,
+      behavior: "smooth",
+    });
+  };
   return (
     <>
       <HashRouter>
@@ -21,6 +33,7 @@ function App() {
           <Route path="/reporting" element={<ReportingPage />} />
         </Routes>
       </HashRouter>
+
       {/* <BrowserRouter>
         <Routes>
           <Route path="/" element={<Homepage />} />

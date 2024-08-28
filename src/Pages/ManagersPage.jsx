@@ -15,8 +15,8 @@ function ManagersPage() {
       <div className="mt-2 text-center w-full">
         <div className="text-4xl font-bold mb-4">For Managers </div>
         <hr className=" bg-blue-300 border-2 rounded-full border-sky-300 " />
-        <div className="grid auto-grid-auto sm:grid-cols-5 pt-4">
-          <div className="text-center">
+        <div className="grid auto-grid-auto sm:grid-cols-5 pt-4 px-12">
+          <div className="text-center m-4 p-4 bg-gray-100 rounded-xl">
             <div className="flex justify-center ">
               <img src={EvaluationImg} className="h-12 w-12 mb-4 mt-4" />
             </div>
@@ -26,7 +26,7 @@ function ManagersPage() {
               development.
             </div>
           </div>
-          <div className="text-center">
+          <div className="text-center m-4 p-4 bg-gray-100 rounded-xl">
             <div className="flex justify-center ">
               <img src={PerformanceImg} className="h-12 w-12 mb-4 mt-4" />
             </div>
@@ -36,7 +36,7 @@ function ManagersPage() {
               organization.
             </div>
           </div>
-          <div className="text-center">
+          <div className="text-center m-4 p-4 bg-gray-100 rounded-xl">
             <div className="flex justify-center ">
               <img src={TalentImg} className="h-12 w-12 mb-4 mt-4" />
             </div>
@@ -46,7 +46,7 @@ function ManagersPage() {
               with goals.
             </div>
           </div>
-          <div className="text-center">
+          <div className="text-center m-4 p-4 bg-gray-100 rounded-xl">
             <div className="flex justify-center ">
               <img src={NotesImg} className="h-12 w-12 mb-4 mt-4" />
             </div>
@@ -56,7 +56,7 @@ function ManagersPage() {
               employee.
             </div>
           </div>
-          <div className="text-center">
+          <div className="text-center m-4 p-4 bg-gray-100 rounded-xl">
             <div className="flex justify-center ">
               <img src={SurveysImg} className="h-12 w-12 mb-4 mt-4" />
             </div>

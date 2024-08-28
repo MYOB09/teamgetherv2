@@ -9,11 +9,11 @@ function DSpacePage() {
   return (
     <div>
       <Navbar />
-      <div className="mt-2 text-center w-full">
+      <div className="mt-2 text-center w-full" id="start">
         <div className="text-2xl font-bold text-4xl mb-4">Digital Space </div>
         <hr className=" bg-blue-300 border-2 rounded-full border-sky-300 " />
-        <div className="grid auto-grid-auto sm:grid-cols-3 pt-4">
-          <div className="text-center">
+        <div className="grid auto-grid-auto sm:grid-cols-3 pt-4 px-12">
+          <div className="text-center m-4 bg-gray-100 rounded-xl">
             <div className="flex justify-center ">
               <img src={KnowledgeImg} className="h-12 w-12 mb-4 mt-4" />
             </div>
@@ -23,7 +23,7 @@ function DSpacePage() {
               development.
             </div>
           </div>
-          <div className="text-center">
+          <div className="text-center m-4 bg-gray-100 rounded-xl">
             <div className="flex justify-center ">
               <img src={StorageImg} className="h-12 w-12 mb-4 mt-4" />
             </div>
@@ -33,7 +33,7 @@ function DSpacePage() {
               compliance.
             </div>
           </div>
-          <div className="text-center">
+          <div className="text-center m-4 bg-gray-100 rounded-xl">
             <div className="flex justify-center ">
               <img src={CardImg} className="h-12 w-12 mb-4 mt-4" />
             </div>
