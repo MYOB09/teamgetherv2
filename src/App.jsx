@@ -7,6 +7,8 @@ import EngagementPage from "./Pages/EngagementPage";
 import ManagersPage from "./Pages/ManagersPage";
 import DSpacePage from "./Pages/DspacePage";
 import ReportingPage from "./Pages/ReportingPage";
+import IndustriesPage from "./Pages/IndustriesPage";
+import AboutPage from "./Pages/AboutPage";
 
 import { ScrollRestoration } from "react-router-dom";
 import { useRef } from "react";
@@ -27,6 +29,8 @@ function App() {
           <Route index element={<Homepage />} />
           <Route path="/home" element={<Homepage />} />
           <Route path="/features" element={<FeaturesPage />} />
+          <Route path="/industries" element={<IndustriesPage />} />
+          <Route path="/about" element={<AboutPage />} />
           <Route path="/engagement" element={<EngagementPage />} />
           <Route path="/managers" element={<ManagersPage />} />
           <Route path="/digitalspace" element={<DSpacePage />} />

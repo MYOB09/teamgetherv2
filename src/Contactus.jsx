@@ -7,7 +7,7 @@ import Mail from "./assets/mail.svg";
 function Contactus() {
   return (
     <div className=" ">
-      <div className=" mt-24" id="bookademo ">
+      <div className=" mt-24" id="bookademo">
         <form className="bg-gray-200 w-12/12 rounded-xl text-center pt-12 pb-12">
           <div className=" ">
             <span className="text-4xl font-semibold">Book a Demo</span>
@@ -141,7 +141,7 @@ function Contactus() {
               placeholder="Message"
             />
           </div>
-          <Button className="p-6 bg-sky-300 hover:bg-white hover:text-sky-300 mb-4">
+          <Button className="p-6 bg-sky-300 hover:bg-white hover:text-sky-300 hover:border-sky-300 mb-4 border-2 border-white">
             Send Message
           </Button>
         </form>

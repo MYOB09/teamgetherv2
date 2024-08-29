@@ -10,7 +10,6 @@ function Homepage() {
     <div>
       <Navbar />
       <MainContent />
-      <Infos />
       <Pricing />
       <Contactus />
       <Footer />
