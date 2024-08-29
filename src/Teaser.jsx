@@ -13,7 +13,7 @@ function Teaser() {
             <div className="flex justify-center ">
               <img src={Engage} className="w-12 h-12 " />
             </div>
-            <div className="text-2xl font-bold pt-4  pb-4">Engagement </div>
+            <div className="text-xl font-bold pt-4  pb-4">Engagement </div>
             <hr className="  border-2 rounded-full border-black" />
             <p className="pt-4 font-semibold">
               Encourages team idea generation and enhances collaboration and
@@ -26,7 +26,7 @@ function Teaser() {
             <div className="flex justify-center">
               <img src={Manage} className="w-12 h-12 " />
             </div>
-            <div className="text-2xl font-bold pt-4 pb-4">For Managers </div>
+            <div className="text-xl font-bold pt-4 pb-4">For Managers </div>
             <hr className="  border-2 rounded-full border-black" />
             <p className="pt-4 font-semibold">
               Enables comprehensive performance appraisals, fostering employee
@@ -39,7 +39,7 @@ function Teaser() {
             <div className="flex justify-center">
               <img src={DSpace} className="w-12 h-12 " />
             </div>
-            <div className="text-2xl font-bold pt-4 pb-4">Digital Space </div>
+            <div className="text-xl font-bold pt-4 pb-4">Digital Space </div>
             <hr className="  border-2 rounded-full border-black" />
             <p className="pt-4 font-semibold ">
               Securely manages documents, enhancing collaboration and ensuring
@@ -52,7 +52,7 @@ function Teaser() {
             <div className="flex justify-center">
               <img src={Reports} className="w-12 h-12 " />
             </div>
-            <div className="text-2xl font-bold pt-4 pb-4">Reporting</div>
+            <div className="text-xl font-bold pt-4 pb-4">Reporting</div>
             <hr className="  border-2 rounded-full border-black" />
             <p className="pt-4 font-semibold ">
               Generates insights and reports, aiding in data-driven

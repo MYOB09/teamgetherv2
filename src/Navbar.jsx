@@ -52,7 +52,7 @@ function Navbar() {
         <div>
           <a href="/teamgetherv2/#/home">
             <img
-              className=" h-12 sm:block sm:h-24 sm:w-auto hover:cursor-pointer"
+              className=" h-12 lg:block sm:h-24 sm:w-auto hover:cursor-pointer"
               src={TeamgetherLogo}
             ></img>
           </a>
@@ -61,8 +61,7 @@ function Navbar() {
           <div className="">
             <NavLink
               to="/features"
-              activeClassName="active"
-              className="aria-[current=page]:text-sky-300 hidden sm:block font-semibold hover:cursor-pointer hover:text-sky-300 pt-4"
+              className="aria-[current=page]:underline decoration-sky-300 hidden lg:block font-semibold hover:cursor-pointer hover:underline "
             >
               Features
             </NavLink>
@@ -71,20 +70,19 @@ function Navbar() {
 
           <NavLink
             to="/industries"
-            activeClassName="active"
-            className="aria-[current=page]:text-sky-300 hidden sm:block font-semibold hover:cursor-pointer hover:text-sky-300 pt-4"
+            className="aria-[current=page]:underline decoration-sky-300 hidden lg:block font-semibold hover:cursor-pointer hover:underline "
           >
             Industries
           </NavLink>
           {/* <div className="">Industries</div> */}
           <NavLink
             to="/about"
-            className="aria-[current=page]:text-sky-300 hidden sm:block font-semibold hover:cursor-pointer hover:text-sky-300 pt-4"
+            className="aria-[current=page]:underline decoration-sky-300 hidden lg:block font-semibold hover:cursor-pointer hover:underline "
           >
             About
           </NavLink>
 
-          <li className="hidden sm:block font-semibold hover:cursor-pointer hover:text-sky-300 pt-4">
+          <li className="aria-[current=page]:underline decoration-sky-300 hidden lg:block font-semibold hover:cursor-pointer hover:underline ">
             <DropdownMenu>
               <DropdownMenuTrigger asChild>
                 <span>Product</span>
@@ -102,14 +100,14 @@ function Navbar() {
               </DropdownMenuContent>
             </DropdownMenu>
           </li>
-          <li className="hidden sm:block font-semibold hover:cursor-pointer hover:text-sky-300 pt-4 active:underline ">
+          <li className="aria-[current=page]:underline decoration-sky-300 hidden lg:block font-semibold hover:cursor-pointer hover:underline active:underline ">
             <ScrollIntoView selector="#prices">Pricing</ScrollIntoView>
           </li>
-          <li className="font-semibold hover:cursor-pointer hover:text-blue-800 pt-4">
+          <li className="aria-[current=page]:underline decoration-sky-300 font-semibold hover:cursor-pointer hover:underline">
             Contact us
           </li>
 
-          <li className="pt-2 pr-4 w-12 h-12  ">
+          <li className="pr-4 w-12 h-12  ">
             <DropdownMenu className="w-12 h-12">
               <DropdownMenuTrigger asChild>
                 <img className="hover:cursor-pointer pt-2" src={English} />

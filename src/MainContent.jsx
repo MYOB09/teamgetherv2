@@ -8,9 +8,9 @@ import Teaser from "./Teaser";
 function MainContent() {
   return (
     <div>
-      <div className="flex mb-8 mt-8 sm:mt-24 sm:mb-24 pt-18">
-        <div className="w-full sm:w-7/12 mx-4 ">
-          <div className="text-2xl sm:text-6xl font-bold ">
+      <div className="flex mb-8 mt-8 sm:mt-24 sm:mb-24 pt-18 h-full">
+        <div className="w-full lg:w-7/12 mx-4 ">
+          <div className="text-2xl lg:text-6xl font-bold ">
             Running teams <span className="text-sky-300">efficiently</span> and{" "}
             <span className="text-sky-300 ">effectively</span>, both{" "}
             <span className="text-sky-300">localy</span> and{" "}
@@ -32,14 +32,14 @@ function MainContent() {
             <div className="mx-12 ">
               <Button className="border-2 border-white bg-white text-sky-300 border-2 border-sky-300 hover:bg-sky-300 hover:text-white sm:text-2xl sm:p-6">
                 How it works
-                <div className="h-8 w-8 sm:h-12 sm:w-12 ml-4">
+                <div className="h-8 w-8 lg:h-10 lg:w-10 ml-4">
                   <img src={PlayButton} />
                 </div>
               </Button>
             </div>
           </div>
         </div>
-        <div className="hidden sm:block w-3/12 mx-12">
+        <div className="hidden lg:block w-3/12 mx-12">
           <img src={PhoneIcon} className="" />
         </div>
       </div>
@@ -53,7 +53,7 @@ function MainContent() {
             </p>
           </div>
           <div className="flex justify-end">
-            <div className="absolute  hover:cursor-pointer hover:text-sky-300  text-black m-1  rounded-full  mt-7  ">
+            <div className="absolute  hover:cursor-pointer hover:text-sky-300  text-black mt-4  rounded-full    ">
               <ArrowRight size={26} />
             </div>
           </div>

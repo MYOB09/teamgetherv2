@@ -8,6 +8,8 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 
+import "bootstrap/dist/css/bootstrap.css";
+
 import {
   Popover,
   PopoverContent,
@@ -27,9 +29,9 @@ function Infos() {
   return (
     <div>
       <div className="flex flex-col m-12">
-        <div className="m-4 p-2 text-center bg-sky-200 rounded-xl">
-          <div className="text-4xl p-4 font-bold"> About Us</div>
-          <div>
+        <div className="m-4  text-center bg-sky-200 rounded-xl">
+          <div className="text-4xl p-2 font-bold"> About Us</div>
+          <div className="p-2">
             At Teamgether, we are dedicated to revolutionizing the way
             businesses engage with their teams. Founded on the belief that
             effective communication and employee engagement are the keys to
@@ -38,10 +40,10 @@ function Infos() {
             that address the unique needs of each sector.
           </div>
         </div>
-        <div className="grid sm:grid-cols-4 ">
+        <div className="grid lg:grid-cols-4 ">
           <div className="m-4 p-2 text-center bg-gray-200 rounded-xl">
-            <div className="text-4xl p-4">What We Do</div>
-            <div>
+            <div className="text-4xl p-4 text-muted">What We Do</div>
+            <div className="">
               Teamgether provides a robust set of tools that cover the full
               spectrum of employee engagement and management. Whether you are in
               insurance, media, banking, B2B, eCommerce, or any other sector,
@@ -66,7 +68,7 @@ function Infos() {
 
           <div className="m-4 p-2 text-center bg-gray-200 rounded-xl">
             <div className="text-4xl p-4">Why Choose Us?</div>
-            <div>
+            <div className="">
               Our platform stands out because of its adaptability and
               user-centric design. We don’t believe in a one-size-fits-all
               approach. Instead, we work closely with our clients to ensure that
@@ -228,30 +230,30 @@ function Infos() {
           <hr className=" bg-white border-2 rounded-full border-white" />
           <Accordion type="single" collapsible className="">
             <AccordionItem value="item-1">
-              <AccordionTrigger className="text-2xl font-semibold">
+              <AccordionTrigger className="text-xl font-semibold">
                 - What is Teamgether?
               </AccordionTrigger>
-              <AccordionContent className="text-xl p-12">
+              <AccordionContent className=" px-4">
                 Teamgether is an app providing quick communication capabilities
                 among team members to solve problems, exchange ideas, and share
                 common issues through a secure environment.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-2">
-              <AccordionTrigger className="text-2xl font-semibold">
+              <AccordionTrigger className="text-xl font-semibold">
                 - What are the key features of Teamgether?
               </AccordionTrigger>
-              <AccordionContent className="text-xl p-12 ">
+              <AccordionContent className=" px-4 ">
                 Teamgether offers features like Announcements, Chat, Polling,
                 Members List, Security, Notifications, Ideas, Graphs, Personal
                 Profile, and Data Export, among others.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-3">
-              <AccordionTrigger className="text-2xl font-semibold">
+              <AccordionTrigger className="text-xl font-semibold">
                 - How does Teamgether enhance employee engagement?
               </AccordionTrigger>
-              <AccordionContent className="text-xl p-12 ">
+              <AccordionContent className=" px-4 ">
                 Teamgether enables employees to participate in chats, polls, and
                 idea sharing, while administrators can manage announcements,
                 discussions, and feedback collection, fostering a culture of
@@ -259,20 +261,20 @@ function Infos() {
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-4">
-              <AccordionTrigger className="text-2xl font-semibold">
+              <AccordionTrigger className="text-xl font-semibold">
                 - Is Teamgether customizable?
               </AccordionTrigger>
-              <AccordionContent className="text-xl p-12 ">
+              <AccordionContent className=" px-4 ">
                 Yes, Teamgether offers customization options tailored to the
                 specific needs and objectives of a company or association,
                 aligning with unique team structures and workflows.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-5">
-              <AccordionTrigger className="text-2xl font-semibold">
+              <AccordionTrigger className="text-xl font-semibold">
                 - How does Teamgether address customer experience?
               </AccordionTrigger>
-              <AccordionContent className="text-xl p-12 ">
+              <AccordionContent className=" px-4 ">
                 Teamgether extends beyond internal team engagement by providing
                 specific features for addressing customer experience issues,
                 enabling companies to leverage employee insights to solve
@@ -280,10 +282,10 @@ function Infos() {
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-6">
-              <AccordionTrigger className="text-2xl font-semibold">
+              <AccordionTrigger className="text-xl font-semibold">
                 - What kind of rewards and incentives does Teamgether offer?
               </AccordionTrigger>
-              <AccordionContent className="text-xl p-12 ">
+              <AccordionContent className=" px-4 ">
                 Teamgether includes reward plans that motivate and encourage
                 participation by recognizing and valuing contributions,
                 fostering healthy competition, and enhancing member satisfaction
@@ -291,10 +293,10 @@ function Infos() {
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-7">
-              <AccordionTrigger className="text-2xl font-semibold">
+              <AccordionTrigger className="text-xl font-semibold">
                 - How does Teamgether ensure data security and compliance?
               </AccordionTrigger>
-              <AccordionContent className="text-xl p-12 ">
+              <AccordionContent className=" px-4 ">
                 Teamgether is GDPR compliant and operates servers in the EU to
                 ensure data protection. It also allows administrators to control
                 and manage user access, ensuring a secure environment for team
