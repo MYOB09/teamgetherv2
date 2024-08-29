@@ -1,15 +1,12 @@
 function Features() {
   return (
     <div className=" bg-gray-50 rounded-xl w-full ">
-      <div className=" pt-4 grid sm:grid-cols-4 w-full text-center">
+      <div className=" pt-4 grid md:grid-cols-4 w-full text-center">
         <div className="">
           <div className="text-xl font-semibold">Engagement</div>
           <hr className=" border-2 rounded-full border-sky-300 mt-4 mx-12 mb-0" />
           <div className="text-start px-8">
-            <div
-              className="m-4   hover:bg-gray-100 hover:cursor-pointer p-2  rounded-xl"
-              rounded-xl
-            >
+            <div className="m-4   hover:bg-gray-100 hover:cursor-pointer p-2  rounded-xl">
               <div className=" text-xl text-sky-700 ">Brainstorming</div>
               Encourages team idea generation and enhances collaboration and
               problem-solving.

@@ -4,11 +4,11 @@ import Infos from "@/Infos";
 
 function AboutPage() {
   return (
-    <>
+    <div>
       <Navbar />
       <Infos />
       <Footer />
-    </>
+    </div>
   );
 }
 
