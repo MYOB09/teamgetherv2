@@ -4,6 +4,7 @@ import PhoneIcon from "./assets/heroimage.png";
 import PlayButton from "./assets/play.svg";
 
 import Teaser from "./Teaser";
+import { NavLink } from "react-router-dom";
 
 function MainContent() {
   return (
@@ -31,9 +32,11 @@ function MainContent() {
           </div>
           <div className="flex mx-4 md:justify-center pt-12 -pl-2">
             <div className="">
-              <Button className="border-sky-300 bg-sky-300 hover:bg-white hover:text-sky-300 border-2 hover:border-sky-300 sm:text-2xl sm:p-6">
-                Book a Demo
-              </Button>
+              <NavLink to="/book-a-demo">
+                <Button className="border-sky-300 bg-sky-300 hover:bg-white hover:text-sky-300 border-2 hover:border-sky-300 sm:text-2xl sm:p-6">
+                  Book a Demo
+                </Button>
+              </NavLink>
             </div>
 
             <div className="mx-4 md:mx-12 ">
