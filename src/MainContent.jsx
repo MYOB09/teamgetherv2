@@ -20,7 +20,7 @@ function MainContent() {
           <div className="text-normal sm:text-3xl pt-12 font-semibold">
             Create a secure and simple environment providing quick communication
             capabilities among team members to solve problems, exchange ideas
-            and share common issues
+            and share common issues.
           </div>
           <div className="flex justify-center pt-12 -pl-2">
             <div className="">

@@ -9,22 +9,21 @@ import DSpacePage from "./Pages/DspacePage";
 import ReportingPage from "./Pages/ReportingPage";
 import IndustriesPage from "./Pages/IndustriesPage";
 import AboutPage from "./Pages/AboutPage";
-
+import ScrollToTop from "./ScrollToTop";
 import { ScrollRestoration } from "react-router-dom";
-import { useRef } from "react";
+import { useEffect, useRef } from "react";
 
 function App() {
-  const aboutSection = useRef(null);
+  const toTopRef = useRef < HTMLSpanElement > null;
 
-  const scrollTo = () => {
-    window.scrollTo({
-      top: aboutSection.current.offsetTop,
-      behavior: "smooth",
-    });
-  };
+  useEffect(() => {
+    window.scroll(0, 0);
+  }, []);
+
   return (
     <>
       <HashRouter>
+        <ScrollToTop />
         <Routes>
           <Route index element={<Homepage />} />
           <Route path="/home" element={<Homepage />} />

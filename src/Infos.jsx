@@ -41,9 +41,9 @@ function Infos() {
               tailored solutions that address the unique needs of each sector.
             </div>
           </div>
-          <div className="grid lg:grid-cols-4 ">
+          <div className="flex-auto ">
             <div className="m-4 p-2 text-center bg-gray-200 rounded-xl">
-              <div className="text-4xl p-4 text-muted">What We Do</div>
+              <div className="text-4xl p-4 ">What We Do</div>
               <div className="">
                 Teamgether provides a robust set of tools that cover the full
                 spectrum of employee engagement and management. Whether you are
@@ -92,8 +92,8 @@ function Infos() {
               </div>
             </div>
           </div>
-          <div className="m-4 p-2 text-center bg-sky-300 rounded-xl">
-            <div className="text-4xl p-4">Join Us</div>
+          <div className="m-4 text-center bg-sky-300 rounded-xl">
+            <div className="text-4xl p-4 -mt-4 ">Join Us</div>
             <div>
               Join the growing number of organizations that trust Teamgether to
               transform their workplace culture and improve their team’s
