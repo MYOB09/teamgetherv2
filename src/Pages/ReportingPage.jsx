@@ -7,7 +7,7 @@ import XlImg from "../assets/xlextractofreports.png";
 
 import { useNavigate } from "react-router-dom";
 
-import { CircleChevronLeft, CircleChevronRight } from "lucide-react";
+import { CircleChevronLeft, CircleX } from "lucide-react";
 
 function ReportingPage() {
   const navigate = useNavigate();
@@ -23,6 +23,9 @@ function ReportingPage() {
             <CircleChevronLeft />
           </button>{" "}
           Reporting{" "}
+          <button className="text-sky-300" onClick={() => navigate("/home")}>
+            <CircleX />
+          </button>
         </div>
         <hr className=" bg-blue-300 border-2 rounded-full border-sky-300  " />
         <div className="grid auto-grid-auto sm:grid-cols-2 pt-4 px-12">
