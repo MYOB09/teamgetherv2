@@ -9,20 +9,20 @@ function MainContent() {
   return (
     <div>
       <div className="flex mb-8 mt-8 sm:mt-24 sm:mb-24 pt-18 h-full">
-        <div className="w-full lg:w-7/12 mx-4 ">
-          <div className="text-2xl lg:text-6xl font-bold ">
+        <div className="w-full lg:w-7/12 lg:mx-4">
+          <div className="text-2xl lg:text-6xl font-bold mx-4">
             Running teams <span className="text-sky-300">efficiently</span> and{" "}
             <span className="text-sky-300 ">effectively</span>, both{" "}
             <span className="text-sky-300">localy</span> and{" "}
             <span className="text-sky-300">globally</span> has never been{" "}
             <span className="text-sky-300">easier</span>.
           </div>
-          <div className="text-normal sm:text-3xl pt-12 font-semibold">
+          <div className="text-normal sm:text-3xl pt-12 font-semibold mx-4">
             Create a secure and simple environment providing quick communication
             capabilities among team members to solve problems, exchange ideas
             and share common issues.
           </div>
-          <div className="flex justify-center pt-12 -pl-2">
+          <div className="flex md:justify-center pt-12 -pl-2">
             <div className="">
               <Button className="border-sky-300 bg-sky-300 hover:bg-white hover:text-sky-300 border-2 hover:border-sky-300 sm:text-2xl sm:p-6">
                 Book a Demo

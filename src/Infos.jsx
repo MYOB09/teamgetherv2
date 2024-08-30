@@ -29,8 +29,8 @@ function Infos() {
   return (
     <div>
       <div className="flex flex-col m-12">
-        <div className="bg-sky-300 rounded-xl">
-          <div className="m-4  text-center bg-sky-300 rounded-xl">
+        <div className="bg-sky-200 rounded-xl">
+          <div className="m-4  text-center  rounded-xl">
             <div className="text-4xl p-2 font-bold"> About Us</div>
             <div className="p-2">
               At Teamgether, we are dedicated to revolutionizing the way
@@ -42,7 +42,7 @@ function Infos() {
             </div>
           </div>
           <div className="flex-auto ">
-            <div className="m-4 p-2 text-center bg-gray-200 rounded-xl">
+            <div className="m-4 p-2 text-center bg-white rounded-xl">
               <div className="text-4xl p-4 ">What We Do</div>
               <div className="">
                 Teamgether provides a robust set of tools that cover the full
@@ -56,7 +56,7 @@ function Infos() {
                 build a motivated, cohesive, and high-performing team.
               </div>
             </div>
-            <div className="m-4 p-2 text-center bg-gray-200 rounded-xl">
+            <div className="m-4 p-2 text-center bg-white rounded-xl">
               <div className="text-4xl p-4">Our Vision</div>
               <div>
                 We envision a world where every employee feels valued, every
@@ -67,7 +67,7 @@ function Infos() {
               </div>
             </div>
 
-            <div className="m-4 p-2 text-center bg-gray-200 rounded-xl">
+            <div className="m-4 p-2 text-center bg-white rounded-xl">
               <div className="text-4xl p-4">Why Choose Us?</div>
               <div className="">
                 Our platform stands out because of its adaptability and
@@ -80,7 +80,7 @@ function Infos() {
                 the latest trends in employee engagement and management.
               </div>
             </div>
-            <div className="m-4 p-2 text-center bg-gray-200 rounded-xl">
+            <div className="m-4 p-2 text-center bg-white rounded-xl">
               <div className="text-4xl p-4">Our Commitment</div>
               <div>
                 We are more than just a software provider; we are your partners
@@ -92,7 +92,7 @@ function Infos() {
               </div>
             </div>
           </div>
-          <div className="m-4 text-center bg-sky-300 rounded-xl">
+          <div className="m-4 p-2 text-center bg-white rounded-xl">
             <div className="text-4xl p-4 -mt-4 ">Join Us</div>
             <div>
               Join the growing number of organizations that trust Teamgether to
