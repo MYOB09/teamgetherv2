@@ -37,7 +37,7 @@ function MainContent() {
             </div>
 
             <div className="mx-4 md:mx-12 ">
-              <Button className="border-2 bg-white text-sky-300 border-sky-300 hover:bg-sky-300 hover:text-white sm:text-2xl ">
+              <Button className="border-2 bg-white text-sky-300 border-sky-300 hover:bg-sky-300 sm:text-2xl ">
                 How it works
                 <div className="h-8 w-8 lg:h-10 lg:w-10 ml-4">
                   <img src={PlayButton} />
