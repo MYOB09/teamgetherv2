@@ -64,18 +64,24 @@ function Navbar() {
                 <DropdownMenuItem>
                   <span>Services</span>
                 </DropdownMenuItem>
-                <ScrollIntoView selector="#bookademo">
-                  <DropdownMenuItem>Book a Demo</DropdownMenuItem>
-                </ScrollIntoView>
               </DropdownMenuContent>
             </DropdownMenu>
           </li>
           <li className="aria-[current=page]:underline decoration-sky-300 hidden lg:block font-semibold hover:cursor-pointer hover:underline active:underline ">
             <ScrollIntoView selector="#prices">Pricing</ScrollIntoView>
           </li>
-          <li className="hidden lg:block aria-[current=page]:underline decoration-sky-300 font-semibold hover:cursor-pointer hover:underline">
-            <ScrollIntoView selector="#contact">Contact us</ScrollIntoView>
-          </li>
+          <NavLink
+            to="/book-a-demo"
+            className="aria-[current=page]:underline decoration-sky-300 hidden lg:block font-semibold hover:cursor-pointer hover:underline "
+          >
+            Book a Demo
+          </NavLink>
+          <NavLink
+            to="/contact-us"
+            className="aria-[current=page]:underline decoration-sky-300 hidden lg:block font-semibold hover:cursor-pointer hover:underline "
+          >
+            Contact us
+          </NavLink>
           <li className="mt-2 lg:hidden mx-4">
             <button onClick={toggleMenu}>
               {isMenuOpen ? <X /> : <Menu />}
@@ -123,20 +129,20 @@ function Navbar() {
             >
               About
             </NavLink>
-            <ScrollIntoView
-              selector="#prices"
+            <NavLink
+              to="/book-a-demo"
               onClick={toggleMenu}
-              className="font-semibold"
+              className="block font-semibold hover:cursor-pointer hover:underline"
             >
-              Pricing
-            </ScrollIntoView>
-            <ScrollIntoView
-              selector="#contact"
+              Book a demo
+            </NavLink>
+            <NavLink
+              to="/contact-us"
               onClick={toggleMenu}
-              className="font-semibold"
+              className="block font-semibold hover:cursor-pointer hover:underline"
             >
               Contact us
-            </ScrollIntoView>
+            </NavLink>
           </ul>
         </div>
       )}

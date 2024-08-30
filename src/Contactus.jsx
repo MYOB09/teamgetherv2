@@ -7,60 +7,6 @@ import Mail from "./assets/mail.svg";
 function Contactus() {
   return (
     <div className=" ">
-      <div className=" mt-24" id="bookademo">
-        <form className="bg-gray-200 w-12/12 rounded-xl text-center pt-12 pb-12">
-          <div className=" ">
-            <span className="text-4xl font-semibold">Book a Demo</span>
-          </div>
-          <div className="mt-4  ">
-            <span className="text-xl  ">
-              Schedule a demo with us and see how Teamgether can help your team
-              collaborate more effectively.
-            </span>
-          </div>
-          <div className="mt-12">
-            <input
-              className="w-6/12 border-2 rounded-xl p-2"
-              placeholder="Your Name"
-            ></input>
-          </div>
-          <div className="mt-4">
-            <input
-              type="email"
-              className="w-6/12 border-2 rounded-xl p-2"
-              placeholder="Your Email"
-            ></input>
-          </div>
-          <div className="mt-4">
-            <input
-              className="w-6/12 border-2 rounded-xl p-2"
-              placeholder="Your Company "
-            ></input>
-          </div>
-          <div className="mt-4">
-            <input
-              className="w-6/12 border-2 rounded-xl p-2"
-              placeholder="Your Position "
-            ></input>
-          </div>
-          <div className="mt-4">
-            <input
-              className="w-6/12 border-2 rounded-xl p-2"
-              placeholder="Your Phone Number "
-            ></input>
-          </div>
-          <div className="mt-4">
-            <textarea
-              className="w-6/12 border-2 rounded-xl p-2 resize-none h-36"
-              placeholder="Message"
-            />
-          </div>
-          <Button className="px-12 mt-4 bg-sky-300 hover:bg-white hover:text-sky-300 ">
-            Book a Demo
-          </Button>
-        </form>
-      </div>
-
       <div className=" " id="contact">
         <div className="text-center pt-4">
           <span className="text-4xl font-semibold">Contact us</span>
@@ -141,7 +87,7 @@ function Contactus() {
               placeholder="Message"
             />
           </div>
-          <Button className="p-6 bg-sky-300 hover:bg-white hover:text-sky-300 hover:border-sky-300 mb-4 border-2 border-white">
+          <Button className="p-6 bg-sky-300 hover:bg-white hover:text-sky-300 hover:border-sky-300 mb-4 border-2 border-sky-300">
             Send Message
           </Button>
         </form>

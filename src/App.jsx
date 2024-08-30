@@ -9,17 +9,14 @@ import DSpacePage from "./Pages/DspacePage";
 import ReportingPage from "./Pages/ReportingPage";
 import IndustriesPage from "./Pages/IndustriesPage";
 import AboutPage from "./Pages/AboutPage";
+import BookDemoPage from "./Pages/BookDemoPage";
+import ContactPage from "./Pages/ContactPage";
+
 import ScrollToTop from "./ScrollToTop";
 import { ScrollRestoration } from "react-router-dom";
 import { useEffect, useRef } from "react";
 
 function App() {
-  const toTopRef = useRef < HTMLSpanElement > null;
-
-  useEffect(() => {
-    window.scroll(0, 0);
-  }, []);
-
   return (
     <>
       <HashRouter>
@@ -34,6 +31,8 @@ function App() {
           <Route path="/managers" element={<ManagersPage />} />
           <Route path="/digitalspace" element={<DSpacePage />} />
           <Route path="/reporting" element={<ReportingPage />} />
+          <Route path="/book-a-demo" element={<BookDemoPage />} />
+          <Route path="/contact-us" element={<ContactPage />} />
         </Routes>
       </HashRouter>
 

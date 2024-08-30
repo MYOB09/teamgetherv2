@@ -2,7 +2,7 @@ import Prices from "./assets/price-list.svg";
 
 function Pricing() {
   return (
-    <div className="pt-4">
+    <div className="pt-4 pb-4">
       <div className="text-center" id="prices">
         <div className="flex justify-center">
           <img src={Prices} className="h-12 w-12" />

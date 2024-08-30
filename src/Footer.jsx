@@ -1,11 +1,11 @@
-import Twitter from "./assets/twitter.svg";
+import Twitter from "./assets/twity.svg";
 import Facebook from "./assets/facebook.svg";
 import LinkedIn from "./assets/linkedin.svg";
 
 function Footer() {
   return (
     <div>
-      <footer className="text-center text-xl border-t p-6">
+      <footer className="text-center text-xl border-t p-6 bg-black text-white">
         Copyright © 2024{" "}
         <span className="font-bold ">
           Team<span className="text-sky-500">g</span>ether

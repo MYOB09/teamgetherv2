@@ -11,7 +11,6 @@ function Homepage() {
       <Navbar />
       <MainContent />
       <Pricing />
-      <Contactus />
       <Footer />
     </div>
   );

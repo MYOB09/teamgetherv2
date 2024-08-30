@@ -14,11 +14,11 @@ function Teaser() {
       </div>
       <div className="py-4 grid sm:grid-cols-2 mx-4 rounded-full pb-12 bg-sky-300">
         <a href="/teamgetherv2/#/engagement" className="">
-          <div className="bg-white mx-12 rounded-xl mt-8 p-12 text-center hover:cursor-pointer hover:bg-gray-100 hover:cursor-pointer hover:bg-gray-300">
+          <div className="bg-white mx-12 rounded-xl mt-8 p-12 text-center hover:cursor-pointer hover:bg-black hover:cursor-pointer">
             <div className="flex justify-center ">
               <img src={Engage} className="w-12 h-12 " />
             </div>
-            <div className="text-xl font-bold pt-4  pb-4">Engagement </div>
+            <div className="text-xl font-bold pt-4 pb-4">Engagement </div>
             <hr className="  border-2 rounded-full border-black" />
             <p className="pt-4 font-semibold">
               Engage your employees and build a strong company culture
