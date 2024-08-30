@@ -7,17 +7,21 @@ import { Button } from "./components/ui/button";
 function Teaser() {
   return (
     <div className=" rounded-xl bg-sky-100 ">
-      <div className="py-4 grid sm:grid-cols-2 mx-4 rounded-full pb-12">
-        <a href="/teamgetherv2/#/engagement">
-          <div className="bg-white mx-12 rounded-xl mt-8 p-12 text-center hover:cursor-pointer hover:bg-gray-100 hover:cursor-pointer hover:bg-gray-100">
+      <div className="text-center bg-white font-semibold text-4xl py-4">
+        Empower Your <span className="text-sky-300 font-bold">Workflow</span>{" "}
+        with Team
+        <span className="text-sky-300 font-bold">g</span>ether
+      </div>
+      <div className="py-4 grid sm:grid-cols-2 mx-4 rounded-full pb-12 bg-sky-300">
+        <a href="/teamgetherv2/#/engagement" className="">
+          <div className="bg-white mx-12 rounded-xl mt-8 p-12 text-center hover:cursor-pointer hover:bg-gray-100 hover:cursor-pointer hover:bg-gray-300">
             <div className="flex justify-center ">
               <img src={Engage} className="w-12 h-12 " />
             </div>
             <div className="text-xl font-bold pt-4  pb-4">Engagement </div>
             <hr className="  border-2 rounded-full border-black" />
             <p className="pt-4 font-semibold">
-              Encourages team idea generation and enhances collaboration and
-              problem-solving.
+              Engage your employees and build a strong company culture
             </p>
           </div>
         </a>
@@ -26,11 +30,10 @@ function Teaser() {
             <div className="flex justify-center">
               <img src={Manage} className="w-12 h-12 " />
             </div>
-            <div className="text-xl font-bold pt-4 pb-4">For Managers </div>
+            <div className="text-xl font-bold pt-4 pb-4"> Managers </div>
             <hr className="  border-2 rounded-full border-black" />
             <p className="pt-4 font-semibold">
-              Enables comprehensive performance appraisals, fostering employee
-              development.
+              Manage communication, performance and culture in one platform
             </p>
           </div>
         </a>

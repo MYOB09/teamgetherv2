@@ -61,7 +61,7 @@ function Contactus() {
         </form>
       </div>
 
-      <div className=" ">
+      <div className=" " id="contact">
         <div className="text-center pt-4">
           <span className="text-4xl font-semibold">Contact us</span>
         </div>

@@ -1,5 +1,5 @@
 import ScrollIntoView from "react-scroll-into-view";
-import TeamgetherLogo from "./assets/teamgether-logo-2.png";
+import TeamgetherLogo from "./assets/logo3.jpg";
 import Greek from "./assets/greece.svg";
 import English from "./assets/englishflag.png";
 import {
@@ -23,10 +23,10 @@ function Navbar() {
   return (
     <div className="sticky top-0 z-[20]">
       <div className="bg-white items-center sticky top-0 flex justify-between w-full h-24">
-        <div>
+        <div className="ml-4 sm:ml-12">
           <a href="/teamgetherv2/#/home">
             <img
-              className=" h-12 lg:block sm:h-24 sm:w-auto hover:cursor-pointer"
+              className="w-44   sm:h-20 sm:w-auto hover:cursor-pointer"
               src={TeamgetherLogo}
             ></img>
           </a>
@@ -74,14 +74,14 @@ function Navbar() {
             <ScrollIntoView selector="#prices">Pricing</ScrollIntoView>
           </li>
           <li className="hidden lg:block aria-[current=page]:underline decoration-sky-300 font-semibold hover:cursor-pointer hover:underline">
-            Contact us
+            <ScrollIntoView selector="#contact">Contact us</ScrollIntoView>
           </li>
-          <li className="lg:hidden">
+          <li className="mt-2 lg:hidden mx-4">
             <button onClick={toggleMenu}>
               {isMenuOpen ? <X /> : <Menu />}
             </button>
           </li>
-          <li className="pr-4 w-12 h-12  ">
+          <li className="pr-4 w-12 h-12 hidden lg:block ">
             <DropdownMenu className="w-12 h-12">
               <DropdownMenuTrigger asChild>
                 <img
@@ -123,10 +123,18 @@ function Navbar() {
             >
               About
             </NavLink>
-            <ScrollIntoView selector="#prices" onClick={toggleMenu}>
+            <ScrollIntoView
+              selector="#prices"
+              onClick={toggleMenu}
+              className="font-semibold"
+            >
               Pricing
             </ScrollIntoView>
-            <ScrollIntoView selector="#contact" onClick={toggleMenu}>
+            <ScrollIntoView
+              selector="#contact"
+              onClick={toggleMenu}
+              className="font-semibold"
+            >
               Contact us
             </ScrollIntoView>
           </ul>

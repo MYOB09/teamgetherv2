@@ -10,26 +10,33 @@ function MainContent() {
     <div>
       <div className="flex mb-8 mt-8 sm:mt-24 sm:mb-24 pt-18 h-full">
         <div className="w-full lg:w-7/12 lg:mx-4">
-          <div className="text-2xl lg:text-6xl font-bold mx-4">
-            Running teams <span className="text-sky-300">efficiently</span> and{" "}
-            <span className="text-sky-300 ">effectively</span>, both{" "}
-            <span className="text-sky-300">localy</span> and{" "}
-            <span className="text-sky-300">globally</span> has never been{" "}
-            <span className="text-sky-300">easier</span>.
+          <div className="text-2xl lg:text-5xl font-bold mx-4">
+            An <span className="text-sky-300">Employee Experience</span> and{" "}
+            <span className="text-sky-300 ">Engagement Platform</span> designed
+            to{" "}
+            <span className="underline decoration-sky-300">
+              enhance internal communication
+            </span>{" "}
+            and{" "}
+            <span className="underline decoration-sky-300">
+              elevate employee experience and engagement
+            </span>
+            .
           </div>
           <div className="text-normal sm:text-3xl pt-12 font-semibold mx-4">
-            Create a secure and simple environment providing quick communication
-            capabilities among team members to solve problems, exchange ideas
-            and share common issues.
+            With Team<span className="text-sky-300 font-bold">g</span>ether
+            employees can connect with colleagues, share information, and
+            celebrate achievements in a more engaging way compared to
+            traditional email communication
           </div>
-          <div className="flex md:justify-center pt-12 -pl-2">
+          <div className="flex mx-4 md:justify-center pt-12 -pl-2">
             <div className="">
               <Button className="border-sky-300 bg-sky-300 hover:bg-white hover:text-sky-300 border-2 hover:border-sky-300 sm:text-2xl sm:p-6">
                 Book a Demo
               </Button>
             </div>
 
-            <div className="mx-12 ">
+            <div className="mx-4 md:mx-12 ">
               <Button className="border-2 bg-white text-sky-300 border-sky-300 hover:bg-sky-300 hover:text-white sm:text-2xl ">
                 How it works
                 <div className="h-8 w-8 lg:h-10 lg:w-10 ml-4">
@@ -43,7 +50,7 @@ function MainContent() {
           <img src={PhoneIcon} className="" />
         </div>
       </div>
-      <div className="flex justify-center mt-12 mx-12 mb-12">
+      {/* <div className="flex justify-center mt-12 mx-12 mb-12">
         <div className="bg-sky-300 rounded-full w-full sm:w-6/12  text-center space-y-6 font-semibold p-12">
           <div className="text-xl">
             <p className="text-white">
@@ -65,7 +72,7 @@ function MainContent() {
             />
           </div>
         </div>
-      </div>
+      </div> */}
       <Teaser />
     </div>
   );

@@ -2,6 +2,11 @@ import Navbar from "@/Navbar";
 import Contactus from "@/Contactus";
 import Footer from "@/Footer";
 
+import React from "react";
+import { useNavigate } from "react-router-dom";
+
+import { CircleX, CircleChevronRight } from "lucide-react";
+
 import BrainstormImg from "../assets/brainstorming.png";
 import StoriesImg from "../assets/stories.png";
 import AnnouncementsImg from "../assets/announcements.png";
@@ -16,12 +21,24 @@ import VoiceImg from "../assets/yourvoice.png";
 import ChartImg from "../assets/organizationalchart.png";
 
 function EngagementPage() {
+  const navigate = useNavigate();
   return (
     <div>
       <Navbar />
       <div className="">
         <div className="mt-2 text-center w-full ">
-          <div className="text-4xl mb-4 font-bold ">Engagement </div>
+          <div className="text-4xl mb-4 font-bold ">
+            <button className="text-sky-300" onClick={() => navigate("/home")}>
+              <CircleX />
+            </button>{" "}
+            Engagement{" "}
+            <button
+              className="text-sky-300"
+              onClick={() => navigate("/managers")}
+            >
+              <CircleChevronRight />
+            </button>
+          </div>{" "}
           <hr className=" bg-blue-300 border-2 rounded-full border-sky-300 " />
           <div className="grid auto-grid-auto sm:grid-cols-4 pt-4 text-xl px-12">
             <div className="text-center m-4 bg-gray-100 rounded-xl p-2 ">

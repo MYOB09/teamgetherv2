@@ -5,12 +5,25 @@ import Footer from "@/Footer";
 import AnalyticsImg from "../assets/analyticsandreports.png";
 import XlImg from "../assets/xlextractofreports.png";
 
+import { useNavigate } from "react-router-dom";
+
+import { CircleChevronLeft, CircleChevronRight } from "lucide-react";
+
 function ReportingPage() {
+  const navigate = useNavigate();
   return (
     <div>
       <Navbar />
       <div className="p-4 mt-2 text-center w-full">
-        <div className="text-4xl font-bold mb-4">Reporting </div>
+        <div className="text-4xl font-bold mb-4">
+          <button
+            className="text-sky-300"
+            onClick={() => navigate("/digitalspace")}
+          >
+            <CircleChevronLeft />
+          </button>{" "}
+          Reporting{" "}
+        </div>
         <hr className=" bg-blue-300 border-2 rounded-full border-sky-300  " />
         <div className="grid auto-grid-auto sm:grid-cols-2 pt-4 px-12">
           <div className="text-center m-4 bg-gray-100 p-4 rounded-xl">
