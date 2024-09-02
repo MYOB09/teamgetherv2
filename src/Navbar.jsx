@@ -48,7 +48,7 @@ function Navbar() {
           <div className="">
             <NavLink
               to="/features"
-              className="aria-[current=page]:underline decoration-sky-300 hidden lg:block font-semibold hover:cursor-pointer hover:underline "
+              className="aria-[current=page]:underline decoration-sky-300 hidden font-semibold hover:cursor-pointer hover:underline "
             >
               Features
             </NavLink>
@@ -84,7 +84,9 @@ function Navbar() {
           <li className="hidden lg:block">
             <Drawer>
               <DrawerTrigger asChild className="align-center">
-                <span className="font-semibold">Book a Demo</span>
+                <Button className="border-sky-300 bg-sky-300 hover:bg-white hover:text-sky-300 border-2 hover:border-sky-300  ">
+                  Book a Demo
+                </Button>
               </DrawerTrigger>
               <DrawerContent className="w-12/12 align-center">
                 <DrawerHeader>

@@ -13,12 +13,12 @@ import {
 } from "@/components/ui/popover";
 
 import WhyUs from "./assets/problem.svg";
-import Focus from "./assets/focuspeople.svg";
-import Features from "./assets/features.svg";
-import TailorMade from "./assets/measuring.svg";
-import Experience from "./assets/trustworthiness.svg";
-import CustomBuild from "./assets/build.svg";
-import Discussion from "./assets/message.svg";
+import Focus from "./assets/1.team engagement.png";
+import Features from "./assets/2.simplicity.png";
+import TailorMade from "./assets/3. tailored.png";
+import Experience from "./assets/4.unique.png";
+import CustomBuild from "./assets/5.configuration.png";
+import Discussion from "./assets/6. discussion.png";
 
 function MainContent() {
   return (
@@ -26,6 +26,10 @@ function MainContent() {
       <div className="flex mb-8 mt-8 sm:mt-24 sm:mb-24 pt-18 h-full">
         <div className="w-full lg:w-7/12 lg:mx-4">
           <div className="text-2xl lg:text-5xl font-bold mx-4">
+            The <span className="text-sky-300">heartbeat</span> of your
+            company's collaboration and interaction
+          </div>
+          <div className="text-normal sm:text-3xl pt-12 font-semibold mx-4">
             An <span className="text-sky-300">Employee Experience</span> and{" "}
             <span className="text-sky-300 ">Engagement Platform</span> designed
             to{" "}
@@ -38,21 +42,7 @@ function MainContent() {
             </span>
             .
           </div>
-          <div className="text-normal sm:text-3xl pt-12 font-semibold mx-4">
-            With Team<span className="text-sky-300 font-bold">g</span>ether
-            employees can connect with colleagues, share information, and
-            celebrate achievements in a more engaging way compared to
-            traditional email communication
-          </div>
           <div className="flex mx-4 md:justify-center pt-12 -pl-2">
-            <div className="">
-              <NavLink to="/book-a-demo">
-                <Button className="border-sky-300 bg-sky-300 hover:bg-white hover:text-sky-300 border-2 hover:border-sky-300 sm:text-2xl sm:p-6">
-                  Book a Demo
-                </Button>
-              </NavLink>
-            </div>
-
             <div className="mx-4 md:mx-12 ">
               <Button className="border-2 bg-white text-sky-300 border-sky-300 hover:bg-sky-300 sm:text-2xl ">
                 How it works
