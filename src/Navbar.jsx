@@ -13,6 +13,19 @@ import { Menu, X } from "lucide-react";
 import { useRef } from "react";
 import { useState } from "react";
 
+import { Button } from "./components/ui/button";
+
+import {
+  Drawer,
+  DrawerClose,
+  DrawerContent,
+  DrawerDescription,
+  DrawerFooter,
+  DrawerHeader,
+  DrawerTitle,
+  DrawerTrigger,
+} from "@/components/ui/drawer";
+
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -52,36 +65,80 @@ function Navbar() {
           >
             About
           </NavLink>
-          <li className="aria-[current=page]:underline decoration-sky-300 hidden lg:block font-semibold hover:cursor-pointer hover:underline ">
-            <DropdownMenu>
-              <DropdownMenuTrigger asChild>
-                <span>Product</span>
-              </DropdownMenuTrigger>
-              <DropdownMenuContent className="w-56 text-center">
-                <DropdownMenuItem>
-                  <span>Overview</span>
-                </DropdownMenuItem>
-                <DropdownMenuItem>
-                  <span>Services</span>
-                </DropdownMenuItem>
-              </DropdownMenuContent>
-            </DropdownMenu>
-          </li>
+
           <li className="aria-[current=page]:underline decoration-sky-300 hidden lg:block font-semibold hover:cursor-pointer hover:underline active:underline ">
             <ScrollIntoView selector="#prices">Pricing</ScrollIntoView>
           </li>
-          <NavLink
+          {/* <NavLink
             to="/book-a-demo"
             className="aria-[current=page]:underline decoration-sky-300 hidden lg:block font-semibold hover:cursor-pointer hover:underline "
-          >
-            Book a Demo
-          </NavLink>
+          > */}
+
+          {/* </NavLink> */}
           <NavLink
             to="/contact-us"
             className="aria-[current=page]:underline decoration-sky-300 hidden lg:block font-semibold hover:cursor-pointer hover:underline "
           >
             Contact us
           </NavLink>
+          <li>
+            <Drawer>
+              <DrawerTrigger asChild className="align-center">
+                <span className="font-semibold">Book a Demo</span>
+              </DrawerTrigger>
+              <DrawerContent className="w-12/12 align-center">
+                <DrawerHeader>
+                  <DrawerTitle>Book a Demo</DrawerTitle>
+                  <DrawerDescription>
+                    Schedule a demo with us and see how Teamgether can help your
+                    team collaborate more effectively.
+                  </DrawerDescription>
+                </DrawerHeader>
+                <form className="  rounded-xl text-center ">
+                  <div className="">
+                    <input
+                      className="w-6/12 border-2 rounded-xl p-2"
+                      placeholder="Your Name"
+                    ></input>
+                  </div>
+                  <div className="mt-4">
+                    <input
+                      type="email"
+                      className="w-6/12 border-2 rounded-xl p-2"
+                      placeholder="Your Email"
+                    ></input>
+                  </div>
+                  <div className="mt-4">
+                    <input
+                      className="w-6/12 border-2 rounded-xl p-2"
+                      placeholder="Your Company "
+                    ></input>
+                  </div>
+                  <div className="mt-4">
+                    <input
+                      className="w-6/12 border-2 rounded-xl p-2"
+                      placeholder="Your Position "
+                    ></input>
+                  </div>
+                  <div className="mt-4">
+                    <input
+                      className="w-6/12 border-2 rounded-xl p-2"
+                      placeholder="Your Phone Number "
+                    ></input>
+                  </div>
+                  <div className="mt-4">
+                    <textarea
+                      className="w-6/12 border-2 rounded-xl p-2 resize-none h-24"
+                      placeholder="Message"
+                    />
+                  </div>
+                  <Button className="px-12 mt-4 bg-sky-300 hover:bg-white hover:text-sky-300 ">
+                    Book a Demo
+                  </Button>
+                </form>
+              </DrawerContent>
+            </Drawer>
+          </li>
           <li className="mt-2 lg:hidden mx-4">
             <button onClick={toggleMenu}>
               {isMenuOpen ? <X /> : <Menu />}

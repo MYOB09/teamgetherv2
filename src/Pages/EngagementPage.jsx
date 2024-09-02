@@ -28,7 +28,7 @@ function EngagementPage() {
       <div className="">
         <div className="mt-2 text-center w-full ">
           <div className="text-4xl mb-4 font-bold ">
-            <button className="text-sky-300" onClick={() => navigate("/home")}>
+            <button className="text-red-500" onClick={() => navigate("/home")}>
               <CircleX />
             </button>{" "}
             Engagement{" "}

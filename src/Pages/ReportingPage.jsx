@@ -23,7 +23,7 @@ function ReportingPage() {
             <CircleChevronLeft />
           </button>{" "}
           Reporting{" "}
-          <button className="text-sky-300" onClick={() => navigate("/home")}>
+          <button className="text-red-500" onClick={() => navigate("/home")}>
             <CircleX />
           </button>
         </div>

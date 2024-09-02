@@ -8,12 +8,12 @@ function Teaser() {
   return (
     <div className=" rounded-xl bg-sky-100 ">
       <div className="text-center bg-white font-semibold text-4xl py-4">
-        Empower Your <span className="text-sky-300 font-bold">Workflow</span>{" "}
+        Empower Your <span className="text-sky-300 font-bold">Employees</span>{" "}
         with Team
         <span className="text-sky-300 font-bold">g</span>ether
       </div>
       <div className="py-4 grid sm:grid-cols-2 mx-4 rounded-full pb-12 bg-sky-300">
-        <a href="/teamgetherv2/#/engagement" className="">
+        <a href="/teamgetherv2/#/engagement" className=" ">
           <div className="bg-white mx-12 rounded-xl mt-8 p-12 text-center hover:cursor-pointer hover:bg-black hover:cursor-pointer">
             <div className="flex justify-center ">
               <img src={Engage} className="w-12 h-12 " />
@@ -25,7 +25,7 @@ function Teaser() {
             </p>
           </div>
         </a>
-        <a href="/teamgetherv2/#/managers">
+        <a href="/teamgetherv2/#/managers" className=" ">
           <div className="bg-white mx-12 rounded-xl mt-8 p-12 text-center hover:cursor-pointer hover:bg-gray-100">
             <div className="flex justify-center">
               <img src={Manage} className="w-12 h-12 " />
@@ -37,8 +37,8 @@ function Teaser() {
             </p>
           </div>
         </a>
-        <a href="/teamgetherv2/#/digitalspace">
-          <div className="bg-white mx-12 rounded-xl mt-8 p-12 text-center hover:cursor-pointer hover:bg-gray-100 pb-4">
+        <a href="/teamgetherv2/#/digitalspace" className=" ">
+          <div className="bg-white mx-12 rounded-xl mt-8 p-12 text-center hover:cursor-pointer hover:bg-gray-100 ">
             <div className="flex justify-center">
               <img src={DSpace} className="w-12 h-12 " />
             </div>
@@ -50,7 +50,7 @@ function Teaser() {
             </p>
           </div>
         </a>
-        <a href="/teamgetherv2/#/reporting">
+        <a href="/teamgetherv2/#/reporting" className=" ">
           <div className="bg-white mx-12 rounded-xl mt-8 p-12 text-center hover:cursor-pointer hover:bg-gray-100">
             <div className="flex justify-center">
               <img src={Reports} className="w-12 h-12 " />
