@@ -6,6 +6,20 @@ import PlayButton from "./assets/play.svg";
 import Teaser from "./Teaser";
 import { NavLink } from "react-router-dom";
 
+import {
+  Popover,
+  PopoverContent,
+  PopoverTrigger,
+} from "@/components/ui/popover";
+
+import WhyUs from "./assets/problem.svg";
+import Focus from "./assets/focuspeople.svg";
+import Features from "./assets/features.svg";
+import TailorMade from "./assets/measuring.svg";
+import Experience from "./assets/trustworthiness.svg";
+import CustomBuild from "./assets/build.svg";
+import Discussion from "./assets/message.svg";
+
 function MainContent() {
   return (
     <div>
@@ -77,6 +91,123 @@ function MainContent() {
         </div>
       </div> */}
       <Teaser />
+      <div className="mt-2 bg-slate-100 text-center w-full rounded-xl p-4">
+        <div className="flex justify-center">
+          <img src={WhyUs} className="w-16 h-16 " />
+          <div className="text-4xl font-bold pt-4 pb-4">&nbsp;Why us? </div>
+        </div>
+        <hr className=" bg-blue-300 border-2 rounded-full border-slate-300" />
+        <div className="grid sm:grid-cols-3 ">
+          <Popover>
+            <PopoverTrigger>
+              <div className="bg-white rounded-xl pt-12 m-4 px-8 border-2 hover:bg-gray-100 hover:border-2 hover:border-white">
+                <div className="flex justify-center">
+                  <img className="w-32 h-32 mb-4" src={Focus} />
+                </div>
+                <div className="text-xl font-bold pb-12">
+                  Specific Focus on Team Engagement
+                </div>
+              </div>
+            </PopoverTrigger>
+            <PopoverContent className="rounded-xl">
+              <div className="text-center text-xl font-semibold">
+                Stands out by specifically focusing on team communication,
+                collaboration, and engagement.
+              </div>
+            </PopoverContent>
+          </Popover>
+          <Popover>
+            <PopoverTrigger>
+              <div className="bg-white rounded-xl pt-12 m-4 px-8 border-2 hover:bg-gray-100 hover:border-2 hover:border-white">
+                <div className="flex justify-center">
+                  <img className="w-32 h-32 mb-4" src={Features} />
+                </div>
+                <div className="text-xl font-bold pb-12">
+                  Advanced Features and Simplicity
+                </div>
+              </div>
+            </PopoverTrigger>
+            <PopoverContent className="rounded-xl">
+              <div className="text-center text-xl font-semibold">
+                Offers features that foster participation, feedback, and
+                community-building in a simple environment.
+              </div>
+            </PopoverContent>
+          </Popover>
+          <Popover>
+            <PopoverTrigger>
+              <div className="bg-white rounded-xl pt-12 m-4 px-8 border-2 hover:bg-gray-100 hover:border-2 hover:border-white">
+                <div className="flex justify-center">
+                  <img className="w-32 h-32 mb-4" src={TailorMade} />
+                </div>
+                <div className="text-xl font-bold pb-4">
+                  Tailored for Employee Feedback & Idea Generation
+                </div>
+              </div>
+            </PopoverTrigger>
+            <PopoverContent className="rounded-xl">
+              <div className=" text-center text-xl font-semibold">
+                Emphasizes gathering feedback and generating impactful ideas
+                through structured processes.
+              </div>
+            </PopoverContent>
+          </Popover>
+          <Popover>
+            <PopoverTrigger>
+              <div className="bg-white rounded-xl pt-12 m-4 px-8 border-2 hover:bg-gray-100 hover:border-2 hover:border-white">
+                <div className="flex justify-center">
+                  <img className="w-32 h-32 mb-4" src={Experience} />
+                </div>
+                <div className="text-xl font-bold pb-12">
+                  Unique Customer Experience Focus
+                </div>
+              </div>
+            </PopoverTrigger>
+            <PopoverContent className="rounded-xl">
+              <div className=" text-center text-xl font-semibold">
+                Extends beyond internal engagement by addressing customer
+                experience and solving problems.
+              </div>
+            </PopoverContent>
+          </Popover>
+          <Popover>
+            <PopoverTrigger>
+              <div className="bg-white rounded-xl pt-12 m-4 px-8 border-2 hover:bg-gray-100 hover:border-2 hover:border-white">
+                <div className="flex justify-center">
+                  <img className="w-32 h-32 mb-4" src={CustomBuild} />
+                </div>
+                <div className="text-xl font-bold pb-12">
+                  Custom-build Configuration
+                </div>
+              </div>
+            </PopoverTrigger>
+            <PopoverContent className="rounded-xl">
+              <div className=" text-center text-xl font-semibold">
+                Offers customization tailored to unique team structures,
+                workflows, and engagement goals.
+              </div>
+            </PopoverContent>
+          </Popover>
+          <Popover>
+            <PopoverTrigger>
+              <div className="bg-white rounded-xl pt-12 m-4 px-8 hover:bg-gray-100 hover:border-2 hover:border-white">
+                <div className="flex justify-center">
+                  <img className="w-32 h-32 mb-4" src={Discussion} />
+                </div>
+                <div className="text-xl font-bold pb-4">
+                  Feedback and Engage in Meaningful Discussions
+                </div>
+              </div>
+            </PopoverTrigger>
+            <PopoverContent className="rounded-xl">
+              <div className=" text-center text-xl font-semibold">
+                Encourages adoption and involvement, leading to higher
+                engagement within teams.
+              </div>
+            </PopoverContent>
+          </Popover>
+        </div>
+      </div>
     </div>
   );
 }

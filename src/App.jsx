@@ -15,6 +15,7 @@ import ContactPage from "./Pages/ContactPage";
 import ScrollToTop from "./ScrollToTop";
 import { ScrollRestoration } from "react-router-dom";
 import { useEffect, useRef } from "react";
+import FAQPage from "./Pages/FAQPage";
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
           <Route path="/reporting" element={<ReportingPage />} />
           <Route path="/book-a-demo" element={<BookDemoPage />} />
           <Route path="/contact-us" element={<ContactPage />} />
+          <Route path="/faq" element={<FAQPage />} />
         </Routes>
       </HashRouter>
 

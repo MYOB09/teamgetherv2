@@ -81,7 +81,7 @@ function Navbar() {
           >
             Contact us
           </NavLink>
-          <li>
+          <li className="hidden lg:block">
             <Drawer>
               <DrawerTrigger asChild className="align-center">
                 <span className="font-semibold">Book a Demo</span>

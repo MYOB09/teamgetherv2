@@ -1,10 +1,31 @@
 import Twitter from "./assets/twity.svg";
 import Facebook from "./assets/facebook.svg";
 import LinkedIn from "./assets/linkedin.svg";
+import { NavLink } from "react-router-dom";
 
 function Footer() {
   return (
     <div>
+      <div className=" flex flex-inline justify-center m-4 text-sm sm:text-xl">
+        <NavLink
+          to="/faq"
+          className="aria-[current=page]:underline decoration-sky-300  font-semibold hover:cursor-pointer hover:underline "
+        >
+          <span className="text-sky-600 hover:cursor-pointer hover:text-sky-300 mx-2">
+            FAQ
+          </span>
+        </NavLink>
+        <NavLink className="aria-[current=page]:underline decoration-sky-300  font-semibold hover:cursor-pointer hover:underline ">
+          <span className="text-sky-600 hover:cursor-pointer hover:text-sky-300 mx-2">
+            Terms and Conditions
+          </span>
+        </NavLink>
+        <NavLink className="aria-[current=page]:underline decoration-sky-300  font-semibold hover:cursor-pointer hover:underline ">
+          <span className="text-sky-600 hover:cursor-pointer hover:text-sky-300 mx-2">
+            Privacy Policy
+          </span>
+        </NavLink>
+      </div>
       <footer className="text-center text-xl border-t p-6 bg-black text-white">
         Copyright © 2024{" "}
         <span className="font-bold ">

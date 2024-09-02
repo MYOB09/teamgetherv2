@@ -2,7 +2,6 @@ import Engage from "./assets/engagement.svg";
 import Manage from "./assets/management.svg";
 import Reports from "./assets/business.svg";
 import DSpace from "./assets/sharing.svg";
-import { Button } from "./components/ui/button";
 
 function Teaser() {
   return (
@@ -13,7 +12,7 @@ function Teaser() {
         <span className="text-sky-300 font-bold">g</span>ether
       </div>
       <div className="py-4 grid sm:grid-cols-2 mx-4 rounded-full pb-12 bg-sky-300">
-        <a href="/teamgetherv2/#/engagement" className=" ">
+        <a href="/teamgetherv2/#/engagement" className="">
           <div className="bg-white mx-12 rounded-xl mt-8 p-12 text-center hover:cursor-pointer hover:bg-black hover:cursor-pointer">
             <div className="flex justify-center ">
               <img src={Engage} className="w-12 h-12 " />
@@ -25,7 +24,7 @@ function Teaser() {
             </p>
           </div>
         </a>
-        <a href="/teamgetherv2/#/managers" className=" ">
+        <a href="/teamgetherv2/#/managers" className="">
           <div className="bg-white mx-12 rounded-xl mt-8 p-12 text-center hover:cursor-pointer hover:bg-gray-100">
             <div className="flex justify-center">
               <img src={Manage} className="w-12 h-12 " />
@@ -37,7 +36,7 @@ function Teaser() {
             </p>
           </div>
         </a>
-        <a href="/teamgetherv2/#/digitalspace" className=" ">
+        <a href="/teamgetherv2/#/digitalspace" className="">
           <div className="bg-white mx-12 rounded-xl mt-8 p-12 text-center hover:cursor-pointer hover:bg-gray-100 ">
             <div className="flex justify-center">
               <img src={DSpace} className="w-12 h-12 " />
@@ -50,7 +49,7 @@ function Teaser() {
             </p>
           </div>
         </a>
-        <a href="/teamgetherv2/#/reporting" className=" ">
+        <a href="/teamgetherv2/#/reporting" className="">
           <div className="bg-white mx-12 rounded-xl mt-8 p-12 text-center hover:cursor-pointer hover:bg-gray-100">
             <div className="flex justify-center">
               <img src={Reports} className="w-12 h-12 " />
