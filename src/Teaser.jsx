@@ -1,7 +1,7 @@
-import Engage from "./assets/engagement.svg";
-import Manage from "./assets/management.svg";
-import Reports from "./assets/business.svg";
-import DSpace from "./assets/sharing.svg";
+import Engage from "./assets/meeting.png";
+import Manage from "./assets/time-management.png";
+import Reports from "./assets/seo-report.png";
+import DSpace from "./assets/digital.png";
 
 function Teaser() {
   return (
