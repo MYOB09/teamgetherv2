@@ -19,13 +19,13 @@ function Footer() {
         </NavLink>
       </div>
       <footer className="text-center text-xl border-t p-6 bg-black text-white">
-        <div>
+        <div className="pb-4">
           <NavLink
             to="/faq"
             className="aria-[current=page]:underline decoration-sky-300  font-semibold hover:cursor-pointer hover:underline "
           >
             <span className="text-red-600 hover:cursor-pointer hover:text-sky-300 mx-2">
-              FAQ
+              Frequently Asked Questions
             </span>
           </NavLink>
         </div>

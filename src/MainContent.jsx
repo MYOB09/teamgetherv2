@@ -32,14 +32,8 @@ function MainContent() {
           <div className="text-normal sm:text-3xl pt-12 font-semibold mx-4">
             An <span className="text-sky-300">Employee Experience</span> and{" "}
             <span className="text-sky-300 ">Engagement Platform</span> designed
-            to{" "}
-            <span className="underline decoration-sky-300">
-              enhance internal communication
-            </span>{" "}
-            and{" "}
-            <span className="underline decoration-sky-300">
-              elevate employee experience and engagement
-            </span>
+            to <span className="">enhance internal communication</span> and{" "}
+            <span className="">elevate employee experience and engagement</span>
             .
           </div>
           <div className="flex mx-4 md:justify-center pt-12 -pl-2">

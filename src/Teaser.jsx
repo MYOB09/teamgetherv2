@@ -7,8 +7,7 @@ function Teaser() {
   return (
     <div className=" rounded-xl bg-sky-100 ">
       <div className="text-center bg-white font-semibold text-4xl py-4">
-        Empower Your <span className="text-sky-300 font-bold">Employees</span>{" "}
-        with Team
+        Empower Your <span className=" font-bold">Employees</span> with Team
         <span className="text-sky-300 font-bold">g</span>ether
       </div>
       <div className="py-4 grid sm:grid-cols-2 mx-4 rounded-full pb-12 bg-sky-300">
