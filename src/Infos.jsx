@@ -1,6 +1,11 @@
 import Use from "./Use";
 import { MessageCircleWarning } from "lucide-react";
 import "bootstrap/dist/css/bootstrap.css";
+import About from "./assets/information.png";
+import WhatweDo from "./assets/suitcase.png";
+import choose from "./assets/directions.png";
+import Commitment from "./assets/hand-shake.png";
+import Vision from "./assets/target.png";
 
 function Infos() {
   return (
@@ -8,7 +13,12 @@ function Infos() {
       <div className="flex flex-col m-12">
         <div className=" rounded-xl">
           <div className="m-4  text-center  rounded-xl">
-            <div className="text-4xl p-2 font-bold"> About Us</div>
+            <div className="text-4xl p-2 font-bold inline-flex">
+              <div className="w-12 h-12">
+                <img src={About} />{" "}
+              </div>
+              &nbsp;About Us
+            </div>
             <div className="p-2">
               At Teamgether, we are dedicated to revolutionizing the way
               businesses engage with their teams. Founded on the belief that
@@ -20,7 +30,12 @@ function Infos() {
           </div>
           <div className="flex-auto ">
             <div className="m-4 p-2   rounded-xl ">
-              <div className="text-4xl p-4 ">What We Do</div>
+              <div className="text-4xl p-4 inline-flex ">
+                <div className="w-8 h-8">
+                  <img src={WhatweDo} />
+                </div>
+                &nbsp;What We Do
+              </div>
               <div className="">
                 Teamgether provides a robust set of tools that cover the full
                 spectrum of employee engagement and management. Whether you are
@@ -34,7 +49,12 @@ function Infos() {
               </div>
             </div>
             <div className="m-4 p-2  rounded-xl ">
-              <div className="text-4xl p-4">Our Vision</div>
+              <div className="text-4xl p-4 inline-flex">
+                <div className="w-8 h-8">
+                  <img src={Vision} />
+                </div>
+                &nbsp;Our Vision
+              </div>
               <div>
                 We envision a world where every employee feels valued, every
                 voice is heard, and every team is aligned with their
@@ -45,7 +65,13 @@ function Infos() {
             </div>
 
             <div className="m-4 p-2  rounded-xl ">
-              <div className="text-4xl p-4">Why Choose Us?</div>
+              <div className="text-4xl p-4 inline-flex">
+                <div className="w-8 h-8">
+                  {" "}
+                  <img src={choose} />
+                </div>
+                &nbsp;Why Choose Us?
+              </div>
               <div className="">
                 Our platform stands out because of its adaptability and
                 user-centric design. We don’t believe in a one-size-fits-all
@@ -58,7 +84,12 @@ function Infos() {
               </div>
             </div>
             <div className="m-4 p-2  rounded-xl ">
-              <div className="text-4xl p-4">Our Commitment</div>
+              <div className="text-4xl p-4 inline-flex">
+                <div className="w-8 h-8">
+                  <img src={Commitment} />
+                </div>
+                &nbsp;Our Commitment
+              </div>
               <div>
                 We are more than just a software provider; we are your partners
                 in building a better workplace. Our team of experts is always

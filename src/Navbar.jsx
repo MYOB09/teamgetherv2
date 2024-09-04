@@ -1,5 +1,5 @@
 import ScrollIntoView from "react-scroll-into-view";
-import TeamgetherLogo from "./assets/logo3.jpg";
+import TeamgetherLogo from "./assets/TeamGether3.png";
 import Greek from "./assets/greece.svg";
 import English from "./assets/englishflag.png";
 import {
