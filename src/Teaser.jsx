@@ -14,7 +14,7 @@ function Teaser() {
         <a href="/teamgetherv2/#/engagement" className="">
           <div className="bg-white mx-12 rounded-xl mt-8 p-12 text-center hover:cursor-pointer hover:bg-black hover:cursor-pointer">
             <div className="flex justify-center ">
-              <img src={Engage} className="w-12 h-12 " />
+              <img src={Engage} className="w-24 h-24 " />
             </div>
             <div className="text-xl font-bold pt-4 pb-4">Engagement </div>
             <hr className="  border-2 rounded-full border-black" />
@@ -26,7 +26,7 @@ function Teaser() {
         <a href="/teamgetherv2/#/managers" className="">
           <div className="bg-white mx-12 rounded-xl mt-8 p-12 text-center hover:cursor-pointer hover:bg-gray-100">
             <div className="flex justify-center">
-              <img src={Manage} className="w-12 h-12 " />
+              <img src={Manage} className="w-24 h-24 " />
             </div>
             <div className="text-xl font-bold pt-4 pb-4"> Managers </div>
             <hr className="  border-2 rounded-full border-black" />
@@ -38,7 +38,7 @@ function Teaser() {
         <a href="/teamgetherv2/#/digitalspace" className="">
           <div className="bg-white mx-12 rounded-xl mt-8 p-12 text-center hover:cursor-pointer hover:bg-gray-100 ">
             <div className="flex justify-center">
-              <img src={DSpace} className="w-12 h-12 " />
+              <img src={DSpace} className="w-24 h-24 " />
             </div>
             <div className="text-xl font-bold pt-4 pb-4">Digital Space </div>
             <hr className="  border-2 rounded-full border-black" />
@@ -51,7 +51,7 @@ function Teaser() {
         <a href="/teamgetherv2/#/reporting" className="">
           <div className="bg-white mx-12 rounded-xl mt-8 p-12 text-center hover:cursor-pointer hover:bg-gray-100">
             <div className="flex justify-center">
-              <img src={Reports} className="w-12 h-12 " />
+              <img src={Reports} className="w-24 h-24 " />
             </div>
             <div className="text-xl font-bold pt-4 pb-4">Reporting</div>
             <hr className="  border-2 rounded-full border-black" />
