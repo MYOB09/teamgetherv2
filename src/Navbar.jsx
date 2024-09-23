@@ -57,29 +57,23 @@ function Navbar() {
             to="/industries"
             className="aria-[current=page]:underline decoration-sky-300 hidden lg:block font-semibold hover:cursor-pointer hover:underline "
           >
-            Industries
+            <li className="block">Industries</li>
           </NavLink>
           <NavLink
             to="/about"
             className="aria-[current=page]:underline decoration-sky-300 hidden lg:block font-semibold hover:cursor-pointer hover:underline "
           >
-            About
+            <li className="block">About</li>
           </NavLink>
 
           <li className="aria-[current=page]:underline decoration-sky-300 hidden lg:block font-semibold hover:cursor-pointer hover:underline active:underline ">
             <ScrollIntoView selector="#prices">Pricing</ScrollIntoView>
           </li>
-          {/* <NavLink
-            to="/book-a-demo"
-            className="aria-[current=page]:underline decoration-sky-300 hidden lg:block font-semibold hover:cursor-pointer hover:underline "
-          > */}
-
-          {/* </NavLink> */}
           <NavLink
             to="/contact-us"
             className="aria-[current=page]:underline decoration-sky-300 hidden lg:block font-semibold hover:cursor-pointer hover:underline "
           >
-            Contact us
+            <li className="block">Contact us</li>
           </NavLink>
           <li className="hidden lg:block">
             <Drawer>
