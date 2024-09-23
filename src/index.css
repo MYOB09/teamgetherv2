@@ -1,4 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-  
+
+li {
+  list-style-type: circle;
+  list-style-position: inside;
+  padding: 6px;
+  margin-left: 20px;
+}

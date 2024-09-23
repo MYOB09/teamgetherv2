@@ -7,7 +7,11 @@ function Footer() {
   return (
     <div>
       <div className=" flex flex-inline justify-center m-4 text-sm sm:text-xl">
-        <NavLink className="aria-[current=page]:underline decoration-sky-300  font-semibold hover:cursor-pointer hover:underline ">
+        <NavLink
+          className="aria-[current=page]:underline decoration-sky-300  font-semibold hover:cursor-pointer hover:underline "
+          to="/terms-and-conditions"
+          target="blank"
+        >
           <span className="text-sky-600 hover:cursor-pointer hover:text-sky-300 mx-2">
             Terms and Conditions
           </span>
