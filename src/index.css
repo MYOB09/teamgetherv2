@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 li {
-  list-style-type: circle;
+  list-style-type: disc;
   list-style-position: inside;
   padding: 6px;
   margin-left: 20px;
