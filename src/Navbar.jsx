@@ -135,7 +135,7 @@ function Navbar() {
               </DrawerContent>
             </Drawer>
           </li>
-          <li className="mt-2 lg:hidden mx-4">
+          <li className="mt-2 lg:hidden mx-4 block">
             <button onClick={toggleMenu}>
               {isMenuOpen ? <X /> : <Menu />}
             </button>
